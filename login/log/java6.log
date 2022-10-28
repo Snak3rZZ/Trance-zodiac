@@ -1,0 +1,20 @@
+2022.10.24 11:27:48,129	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
+2022.10.24 11:27:48,182	INFO	1	org.l2jmobius.loginserver.LoginController	Loading LoginController...
+2022.10.24 11:27:48,769	INFO	1	org.l2jmobius.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
+2022.10.24 11:27:48,876	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 127 server names.
+2022.10.24 11:27:48,878	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 1 registered Game Servers.
+2022.10.24 11:27:49,009	INFO	1	org.l2jmobius.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2022.10.24 11:27:49,012	INFO	1	org.l2jmobius.loginserver.LoginServer	Loaded 2 IP Bans.
+2022.10.24 11:27:49,013	INFO	1	org.l2jmobius.loginserver.LoginServer	Listening for GameServers on 192.168.1.66:9014
+2022.10.24 11:27:49,293	INFO	1	org.l2jmobius.commons.network.NetworkManager	ClientNetworkManager: Listening on 192.168.1.66:2106
+2022.10.24 11:29:17,268	INFO	31	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2022.10.24 11:29:17,270	INFO	31	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2022.10.24 11:29:17,271	INFO	31	org.l2jmobius.loginserver.GameServerThread	10.0.0.0/10.0.0.0/8
+2022.10.24 11:29:17,271	INFO	31	org.l2jmobius.loginserver.GameServerThread	172.16.0.0/172.16.0.0/19
+2022.10.24 11:29:17,271	INFO	31	org.l2jmobius.loginserver.GameServerThread	192.168.0.0/192.168.0.0/16
+2022.10.24 11:29:17,271	INFO	31	org.l2jmobius.loginserver.GameServerThread	192.168.0.0/192.168.0.0/24
+2022.10.24 11:29:17,271	INFO	31	org.l2jmobius.loginserver.GameServerThread	192.168.1.0/192.168.1.0/24
+2022.10.24 11:29:17,271	INFO	31	org.l2jmobius.loginserver.GameServerThread	128.0.131.163/0.0.0.0/0
+2022.10.24 13:33:43,109	INFO	57	org.l2jmobius.loginserver.LoginController	Auto created account 'Decopiteter'.
+2022.10.24 15:38:17,486	INFO	31	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset
+2022.10.24 15:38:17,488	INFO	31	org.l2jmobius.loginserver.GameServerThread	Server [2] Sieghardt is now set as disconnected.

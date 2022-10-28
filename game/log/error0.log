@@ -1,0 +1,133 @@
+окт. 27, 2022 11:27:21 AM org.l2jmobius.gameserver.handler.AdminCommandHandler lambda$useAdminCommand$0
+WARNING: Exception during execution of admin_setcharquest АЛ-Акир Q00933_TombRaiders state DELETE
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.quest.QuestState.setSimulated(boolean)" because "qs" is null
+	at handlers.admincommandhandlers.AdminShowQuests.setQuestVar(AdminShowQuests.java:316)
+	at handlers.admincommandhandlers.AdminShowQuests.useAdminCommand(AdminShowQuests.java:140)
+	at org.l2jmobius.gameserver.handler.AdminCommandHandler.lambda$useAdminCommand$0(AdminCommandHandler.java:127)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+окт. 27, 2022 2:02:15 PM org.l2jmobius.gameserver.model.instancezone.Instance setReenterTime
+WARNING: Could not insert character instance reenter data: 
+java.sql.BatchUpdateException: (conn=284570) Interrupted awaiting response 
+	at org.mariadb.jdbc.MariaDbStatement.executeBatchExceptionEpilogue(MariaDbStatement.java:327)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeBatch(ClientSidePreparedStatement.java:299)
+	at org.l2jmobius.gameserver.model.instancezone.Instance.setReenterTime(Instance.java:960)
+	at org.l2jmobius.gameserver.model.instancezone.Instance.setReenterTime(Instance.java:934)
+	at org.l2jmobius.gameserver.model.instancezone.Instance.finishInstance(Instance.java:1008)
+	at org.l2jmobius.gameserver.model.instancezone.Instance.finishInstance(Instance.java:994)
+	at ai.bosses.Istina.IstinaCavern.onTimerEvent(IstinaCavern.java:311)
+	at org.l2jmobius.gameserver.model.events.AbstractScript.onTimerEvent(AbstractScript.java:183)
+	at org.l2jmobius.gameserver.model.events.timers.TimerHolder.run(TimerHolder.java:187)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLTransientConnectionException: (conn=284570) Interrupted awaiting response 
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:79)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
+	at org.mariadb.jdbc.MariaDbStatement.executeBatchExceptionEpilogue(MariaDbStatement.java:323)
+	... 15 more
+Caused by: java.sql.SQLException: Interrupted awaiting response 
+	at org.mariadb.jdbc.internal.protocol.AbstractMultiSend.executeBatchStandard(AbstractMultiSend.java:299)
+	at org.mariadb.jdbc.internal.protocol.AbstractMultiSend.executeBatch(AbstractMultiSend.java:206)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeBatchMulti(AbstractQueryProtocol.java:704)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeBatchClient(AbstractQueryProtocol.java:426)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternalBatch(ClientSidePreparedStatement.java:368)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeBatch(ClientSidePreparedStatement.java:294)
+	... 14 more
+Caused by: java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:418)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:190)
+	at org.mariadb.jdbc.internal.protocol.AbstractMultiSend.executeBatchStandard(AbstractMultiSend.java:284)
+	... 19 more
+
+окт. 27, 2022 2:05:10 PM org.l2jmobius.gameserver.model.instancezone.Instance setReenterTime
+WARNING: Could not insert character instance reenter data: 
+java.sql.BatchUpdateException: (conn=284577) Interrupted awaiting response 
+	at org.mariadb.jdbc.MariaDbStatement.executeBatchExceptionEpilogue(MariaDbStatement.java:327)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeBatch(ClientSidePreparedStatement.java:299)
+	at org.l2jmobius.gameserver.model.instancezone.Instance.setReenterTime(Instance.java:960)
+	at org.l2jmobius.gameserver.model.instancezone.Instance.setReenterTime(Instance.java:934)
+	at org.l2jmobius.gameserver.model.instancezone.Instance.finishInstance(Instance.java:1008)
+	at org.l2jmobius.gameserver.model.instancezone.Instance.finishInstance(Instance.java:994)
+	at ai.bosses.Istina.IstinaCavern.onTimerEvent(IstinaCavern.java:311)
+	at org.l2jmobius.gameserver.model.events.AbstractScript.onTimerEvent(AbstractScript.java:183)
+	at org.l2jmobius.gameserver.model.events.timers.TimerHolder.run(TimerHolder.java:187)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLTransientConnectionException: (conn=284577) Interrupted awaiting response 
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:79)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
+	at org.mariadb.jdbc.MariaDbStatement.executeBatchExceptionEpilogue(MariaDbStatement.java:323)
+	... 15 more
+Caused by: java.sql.SQLException: Interrupted awaiting response 
+	at org.mariadb.jdbc.internal.protocol.AbstractMultiSend.executeBatchStandard(AbstractMultiSend.java:299)
+	at org.mariadb.jdbc.internal.protocol.AbstractMultiSend.executeBatch(AbstractMultiSend.java:206)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeBatchMulti(AbstractQueryProtocol.java:704)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeBatchClient(AbstractQueryProtocol.java:426)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternalBatch(ClientSidePreparedStatement.java:368)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeBatch(ClientSidePreparedStatement.java:294)
+	... 14 more
+Caused by: java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:418)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:190)
+	at org.mariadb.jdbc.internal.protocol.AbstractMultiSend.executeBatchStandard(AbstractMultiSend.java:284)
+	... 19 more
+
+окт. 27, 2022 9:09:55 PM org.l2jmobius.gameserver.network.GameClient channelRead0
+WARNING: Exception for: [Character: МОЕЙ ВОЛИ[268511586] - Account: admin - IP: 128.0.131.163] on packet.run: RequestRestartPoint
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.PetLevelData.getPetMaxFeed()" because the return value of "org.l2jmobius.gameserver.model.actor.Player.getPetLevelData(int)" is null
+	at org.l2jmobius.gameserver.model.actor.Player.getMaxFeed(Player.java:12331)
+	at org.l2jmobius.gameserver.model.actor.Player.startFeed(Player.java:12261)
+	at org.l2jmobius.gameserver.model.actor.Player.doRevive(Player.java:10576)
+	at org.l2jmobius.gameserver.model.actor.Player.doRevive(Player.java:10596)
+	at org.l2jmobius.gameserver.network.clientpackets.RequestRestartPoint.portPlayer(RequestRestartPoint.java:251)
+	at org.l2jmobius.gameserver.network.clientpackets.RequestRestartPoint.run(RequestRestartPoint.java:124)
+	at org.l2jmobius.gameserver.network.clientpackets.RequestRestartPoint.run(RequestRestartPoint.java:47)
+	at org.l2jmobius.gameserver.network.GameClient.channelRead0(GameClient.java:120)
+	at org.l2jmobius.gameserver.network.GameClient.channelRead0(GameClient.java:69)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+	at io.netty.handler.codec.ByteToMessageCodec.channelRead(ByteToMessageCodec.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:623)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:586)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+

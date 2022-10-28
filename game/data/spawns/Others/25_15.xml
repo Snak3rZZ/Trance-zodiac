@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="25_15">
+		<group>
+			<npc id="24580" x="189329" y="-83875" z="-5960" heading="61968" respawnTime="10sec" /> <!-- Tomb Guardian -->
+		</group>
+	</spawn>
+</list>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- CB -->
+	</npcs>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36499" /> <!-- Shadow Shaper -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36500" /> <!-- Shadow Cutter -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36501" /> <!-- Shadow Slasher -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36502" /> <!-- Shadow Fighter -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36503" /> <!-- Shadow Stormer -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36504" /> <!-- Shadow Thrower -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36505" /> <!-- Shadow Shooter -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36489" /> <!-- Shadow Buster -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36490" /> <!-- Shadow Retributer -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36491" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36492" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36493" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36494" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36495" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36496" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36497" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36498" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36506" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36507" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36508" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36509" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36510" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36511" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36512" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80084" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80085" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80086" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80087" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80088" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80089" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80318" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80235" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80236" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80237" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80238" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80239" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80240" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80241" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80242" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80243" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80244" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80245" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80246" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80247" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80248" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80249" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="37732" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="37522" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="37521" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36255" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="36254" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="60098" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80778" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80777" /> <!-- Shadow Dual Sword -->
+	</item>
+	<item>
+		<ingredient count="1" id="10639" /> <!-- Adena -->
+		<production count="1" id="80776" /> <!-- Shadow Dual Sword -->
+	</item>
+</list>

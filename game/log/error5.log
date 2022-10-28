@@ -1,0 +1,48 @@
+окт. 24, 2022 5:44:17 PM handlers.effecthandlers.SummonPet instant
+WARNING: Summoning pet without attaching PetItemHandler!
+java.lang.Throwable
+	at handlers.effecthandlers.SummonPet.instant(SummonPet.java:78)
+	at org.l2jmobius.gameserver.model.skill.Skill.applyEffectScope(Skill.java:1221)
+	at org.l2jmobius.gameserver.model.skill.Skill.applyEffects(Skill.java:1315)
+	at org.l2jmobius.gameserver.model.skill.Skill.applyEffects(Skill.java:1267)
+	at org.l2jmobius.gameserver.model.skill.Skill.activateSkill(Skill.java:1467)
+	at org.l2jmobius.gameserver.model.skill.Skill.activateSkill(Skill.java:1423)
+	at org.l2jmobius.gameserver.model.skill.SkillCaster.callSkill(SkillCaster.java:644)
+	at org.l2jmobius.gameserver.model.skill.SkillCaster.finishSkill(SkillCaster.java:564)
+	at org.l2jmobius.gameserver.model.skill.SkillCaster.run(SkillCaster.java:227)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+окт. 24, 2022 6:45:07 PM org.l2jmobius.gameserver.model.quest.Quest showError
+WARNING: F:\l2ServerMain\game\data\scripts\ai\bosses\Beleth\Beleth.java
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.actor.Npc.deleteMe()" because "this._whirpool" is null
+	at ai.bosses.Beleth.Beleth.onAdvEvent(Beleth.java:498)
+	at org.l2jmobius.gameserver.model.quest.Quest.notifyEvent(Quest.java:573)
+	at org.l2jmobius.gameserver.model.quest.QuestTimer$ScheduleTimerTask.run(QuestTimer.java:156)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+окт. 24, 2022 9:20:25 PM org.l2jmobius.gameserver.model.quest.Quest showError
+WARNING: F:\l2ServerMain\game\data\scripts\ai\bosses\Antharas\Antharas.java
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.instancezone.Instance.getId()" because "world" is null
+	at ai.bosses.Antharas.Antharas.onAdvEvent(Antharas.java:122)
+	at org.l2jmobius.gameserver.model.quest.Quest.notifyEvent(Quest.java:573)
+	at org.l2jmobius.gameserver.model.quest.QuestTimer$ScheduleTimerTask.run(QuestTimer.java:156)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+

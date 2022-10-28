@@ -1,0 +1,713 @@
+2022.10.27 10:48:58,698	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml exists using manual configuration...
+2022.10.27 10:48:59,357	INFO	1	org.l2jmobius.Config	Loaded 6 Filter Words.
+2022.10.27 10:48:59,371	INFO	22	org.l2jmobius.gameserver.model.World	World: (288 by 272) World Region Grid set up.
+2022.10.27 10:48:59,650	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Database ]
+2022.10.27 10:49:05,154	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
+2022.10.27 10:49:05,155	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ ThreadPool ]
+2022.10.27 10:49:05,156	INFO	1	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
+2022.10.27 10:49:05,157	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...4 scheduled pool executors with 16 total threads.
+2022.10.27 10:49:05,158	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...4 instant pool executors with 8 total threads.
+2022.10.27 10:49:05,219	INFO	1	org.l2jmobius.gameserver.GameServer	-----------------------------------------------=[ IdManager ]
+2022.10.27 10:49:05,241	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	Updated characters online status.
+2022.10.27 10:49:06,042	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 elements from database in 0 seconds.
+2022.10.27 10:49:06,146	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 25 expired timestamps from database.
+2022.10.27 10:49:06,195	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: 205824 id's available.
+2022.10.27 10:49:06,195	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------=[ Scripting Engine ]
+2022.10.27 10:49:07,092	INFO	1	org.l2jmobius.gameserver.scripting.ScriptEngineManager	Loaded 837 files to exclude.
+2022.10.27 10:49:07,093	INFO	1	org.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Telnet ]
+2022.10.27 10:49:07,475	INFO	1	org.l2jmobius.gameserver.network.telnet.TelnetServer	Telnet server is currently disabled.
+2022.10.27 10:49:07,476	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ World ]
+2022.10.27 10:49:08,171	INFO	1	org.l2jmobius.gameserver.instancemanager.MapRegionManager	MapRegionManager: Loaded 61 map regions.
+2022.10.27 10:49:08,187	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager 19 by 18 Zone Region Grid set up.
+2022.10.27 10:49:09,748	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Loaded 34 zone classes and 2957 zones.
+2022.10.27 10:49:09,775	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Last static id 210110.
+2022.10.27 10:49:10,593	INFO	1	org.l2jmobius.gameserver.data.xml.DoorData	DoorData: Loaded 1520 doors.
+2022.10.27 10:49:10,633	INFO	1	FenceData	FenceData: Loaded 1 fences.
+2022.10.27 10:49:10,683	INFO	1	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Loaded 16 variables.
+2022.10.27 10:49:10,683	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ Data ]
+2022.10.27 10:49:10,709	INFO	1	org.l2jmobius.gameserver.data.xml.ActionData	ActionData: Loaded 216 player actions.
+2022.10.27 10:49:10,824	INFO	1	org.l2jmobius.gameserver.data.xml.CategoryData	CategoryData: Loaded 216 categories.
+2022.10.27 10:49:10,877	INFO	1	org.l2jmobius.gameserver.data.xml.SecondaryAuthData	SecondaryAuthData: Loaded 328 forbidden passwords.
+2022.10.27 10:49:16,544	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Highest item id used: 96959
+2022.10.27 10:49:16,593	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 24150 Etc Items
+2022.10.27 10:49:16,605	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 12756 Armor Items
+2022.10.27 10:49:16,606	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 9112 Weapon Items
+2022.10.27 10:49:16,622	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 46018 Items in total.
+2022.10.27 10:49:16,888	INFO	1	org.l2jmobius.gameserver.data.xml.CombinationItemsData	CombinationItemsData: Loaded 4421 combinations.
+2022.10.27 10:49:16,977	INFO	1	org.l2jmobius.gameserver.data.xml.SayuneData	SayuneData: Loaded 71 maps.
+2022.10.27 10:49:21,157	INFO	1	handlers.DailyMissionMasterHandler	DailyMissionMasterHandler:  Loaded 10 handlers.
+2022.10.27 10:49:21,321	INFO	1	org.l2jmobius.gameserver.data.xml.DailyMissionData	DailyMissionData: Loaded 87 one day rewards.
+2022.10.27 10:49:21,321	INFO	1	org.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Skills ]
+2022.10.27 10:49:37,256	INFO	1	handlers.EffectMasterHandler	EffectMasterHandler: Loaded 389 effect handlers.
+2022.10.27 10:49:37,320	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantSkillGroupsData	EnchantSkillGroupsData: Loaded 20 enchant routes, max enchant set to 20.
+2022.10.27 10:49:47,727	INFO	1	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Loaded 169946 Skills.
+2022.10.27 10:49:49,558	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 19373 Class skills for 150 class skill trees.
+2022.10.27 10:49:49,559	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 1 sub-class skills.
+2022.10.27 10:49:49,559	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 33 dual-class skills.
+2022.10.27 10:49:49,559	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 104 transfer skills for 3 transfer skill trees.
+2022.10.27 10:49:49,589	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 18 race skills for 7 race skill trees.
+2022.10.27 10:49:49,590	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 35 fishing skills, 8 Dwarven only fishing skills.
+2022.10.27 10:49:49,591	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 3 collect skills.
+2022.10.27 10:49:49,639	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 11 clan skills, 0 for clan and 11 residential.
+2022.10.27 10:49:49,652	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 sub-pledge skills.
+2022.10.27 10:49:49,653	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 32 transform skills.
+2022.10.27 10:49:49,654	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 22 noble skills.
+2022.10.27 10:49:49,654	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 4 hero skills.
+2022.10.27 10:49:49,654	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 61 game master skills.
+2022.10.27 10:49:49,655	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 61 game master aura skills.
+2022.10.27 10:49:49,655	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 123 ability skills.
+2022.10.27 10:49:49,655	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 113 alchemy skills.
+2022.10.27 10:49:49,656	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 37 class awaken save skills.
+2022.10.27 10:49:49,656	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 20 Revelation skills.
+2022.10.27 10:49:49,656	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 35 common skills.
+2022.10.27 10:49:49,729	INFO	1	org.l2jmobius.gameserver.data.xml.PetSkillData	PetSkillData: Loaded 1084 skills.
+2022.10.27 10:49:49,730	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Items ]
+2022.10.27 10:49:49,885	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Loaded 31 item group templates.
+2022.10.27 10:49:49,885	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Loaded 5 scroll group templates.
+2022.10.27 10:49:49,981	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemData	EnchantItemData: Loaded 286 enchant scrolls.
+2022.10.27 10:49:49,981	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemData	EnchantItemData: Loaded 104 support items.
+2022.10.27 10:49:50,047	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemOptionsData	EnchantItemOptionsData: Loaded 353 items and 4710 options.
+2022.10.27 10:49:50,066	INFO	1	org.l2jmobius.commons.util.IXmlReader	ElementalAttributeData: Loaded 139 elemental attribute items.
+2022.10.27 10:49:50,119	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Loaded 13 crystallization templates.
+2022.10.27 10:49:50,119	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Loaded 338 pre-defined crystallizable items.
+2022.10.27 10:49:50,160	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Generated 5988 crystallizable items from templates.
+2022.10.27 10:49:53,010	INFO	1	org.l2jmobius.gameserver.data.xml.OptionData	OptionData: Loaded 37581 options.
+2022.10.27 10:49:53,123	INFO	1	VariationData	VariationData: Loaded 37 variations.
+2022.10.27 10:49:53,124	INFO	1	VariationData	VariationData: Loaded 2463 fees.
+2022.10.27 10:49:53,331	INFO	1	org.l2jmobius.gameserver.data.xml.EnsoulData	EnsoulData: Loaded 128 fees.
+2022.10.27 10:49:53,332	INFO	1	org.l2jmobius.gameserver.data.xml.EnsoulData	EnsoulData: Loaded 1169 options.
+2022.10.27 10:49:53,332	INFO	1	org.l2jmobius.gameserver.data.xml.EnsoulData	EnsoulData: Loaded 125 stones.
+2022.10.27 10:49:53,362	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemHPBonusData	EnchantItemHPBonusData: Loaded 12 enchant HP bonuses.
+2022.10.27 10:49:56,575	INFO	1	org.l2jmobius.gameserver.data.xml.BuyListData	BuyListData: Loaded 921 buyLists.
+2022.10.27 10:49:59,891	INFO	1	org.l2jmobius.gameserver.data.xml.MultisellData	MultisellData: Loaded 600 multisell lists.
+2022.10.27 10:49:59,986	INFO	1	org.l2jmobius.gameserver.data.xml.EquipmentUpgradeData	EquipmentUpgradeData: Loaded 6931 upgrade equipment data.
+2022.10.27 10:50:00,136	INFO	1	org.l2jmobius.gameserver.data.xml.AgathionData	AgathionData: Loaded 435 agathion data.
+2022.10.27 10:50:00,337	INFO	1	org.l2jmobius.gameserver.data.xml.RecipeData	RecipeData: Loaded 1816 recipes.
+2022.10.27 10:50:00,486	INFO	1	org.l2jmobius.gameserver.data.xml.ArmorSetData	ArmorSetData: Loaded 370 armor sets.
+2022.10.27 10:50:00,507	INFO	1	org.l2jmobius.gameserver.data.xml.FishingData	FishingData: Loaded 9 bait and 14 rod data.
+2022.10.27 10:50:00,636	INFO	1	org.l2jmobius.gameserver.data.xml.HennaData	HennaData: Loaded 549 henna data.
+2022.10.27 10:50:00,688	INFO	1	org.l2jmobius.gameserver.data.xml.PrimeShopData	PrimeShopData: Loaded 99 items.
+2022.10.27 10:50:00,718	INFO	1	org.l2jmobius.gameserver.data.xml.LimitShopData	LimitShopData: Loaded 44 items.
+2022.10.27 10:50:00,750	INFO	1	org.l2jmobius.gameserver.data.xml.LimitShopData	LimitShopCraftData: Loaded 131 items.
+2022.10.27 10:50:00,793	INFO	1	org.l2jmobius.gameserver.data.xml.CollectionData	CollectionData: Loaded 188 collections.
+2022.10.27 10:50:00,904	INFO	1	org.l2jmobius.gameserver.data.xml.AppearanceItemData	AppearanceItemData: Loaded 1282 stones.
+2022.10.27 10:50:00,939	INFO	1	org.l2jmobius.gameserver.data.xml.AlchemyData	AlchemyData: Loaded 114 alchemy craft skills.
+2022.10.27 10:50:01,021	INFO	1	org.l2jmobius.commons.util.IXmlReader	LuckyGameData: Loaded 2 lucky game data.
+2022.10.27 10:50:01,022	INFO	1	org.l2jmobius.gameserver.data.xml.AttendanceRewardData	AttendanceRewardData: Disabled.
+2022.10.27 10:50:01,023	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ Characters ]
+2022.10.27 10:50:01,052	INFO	1	org.l2jmobius.gameserver.data.xml.ClassListData	ClassListData: Loaded 158 class data.
+2022.10.27 10:50:01,067	INFO	1	org.l2jmobius.gameserver.data.xml.InitialEquipmentData	InitialEquipmentData: Loaded 14 initial equipment data.
+2022.10.27 10:50:01,087	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 5 initial global shortcuts data.
+2022.10.27 10:50:01,087	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 5 initial shortcuts data.
+2022.10.27 10:50:01,087	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 0 macro presets.
+2022.10.27 10:50:01,100	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Loaded 131 levels.
+2022.10.27 10:50:01,101	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Player Level is 130.
+2022.10.27 10:50:01,101	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Pet Level is 99.
+2022.10.27 10:50:01,130	INFO	1	org.l2jmobius.gameserver.data.xml.KarmaData	KarmaData: Loaded 130 karma modifiers.
+2022.10.27 10:50:01,164	INFO	1	org.l2jmobius.gameserver.data.xml.HitConditionBonusData	HitConditionBonusData: Loaded hit condition bonuses.
+2022.10.27 10:50:02,402	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 150 character templates.
+2022.10.27 10:50:02,419	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 108000 level up gain records.
+2022.10.27 10:50:02,419	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Generated 1500 level up gain records.
+2022.10.27 10:50:02,426	INFO	1	org.l2jmobius.gameserver.data.sql.CharNameTable	CharNameTable: Loaded 7 char names.
+2022.10.27 10:50:02,489	INFO	1	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: Loaded 10 access levels.
+2022.10.27 10:50:02,520	INFO	1	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: Loaded 468 access commands.
+2022.10.27 10:50:03,437	INFO	1	org.l2jmobius.gameserver.data.xml.PetDataTable	PetDataTable: Loaded 56 pets.
+2022.10.27 10:50:03,574	INFO	1	org.l2jmobius.gameserver.data.xml.CubicData	CubicData: Loaded 25 cubics.
+2022.10.27 10:50:03,631	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Clans ]
+2022.10.27 10:50:03,669	INFO	1	org.l2jmobius.gameserver.communitybbs.Manager.ForumsBBSManager	ForumsBBSManager: Loaded 8 forums. Last forum id used: 8
+2022.10.27 10:50:03,789	INFO	1	org.l2jmobius.gameserver.data.sql.ClanTable	ClanTable: Restored 4 clans from the database.
+2022.10.27 10:50:03,830	INFO	1	org.l2jmobius.gameserver.data.xml.ResidenceFunctionsData	ResidenceFunctionsData: Loaded 8 functions.
+2022.10.27 10:50:04,146	INFO	1	org.l2jmobius.gameserver.data.xml.ClanHallData	ClanHallData: Succesfully loaded 57 clan halls.
+2022.10.27 10:50:04,148	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanHallAuctionManager	ClanHallAuctionManager: Clan Hall Auction has started!
+2022.10.27 10:50:04,230	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 clan entries.
+2022.10.27 10:50:04,232	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 players in waiting list.
+2022.10.27 10:50:04,237	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 player applications.
+2022.10.27 10:50:04,267	INFO	1	org.l2jmobius.gameserver.data.xml.ClanMasteryData	ClanMasteryData: Loaded 16 clan masteries.
+2022.10.27 10:50:04,284	INFO	1	org.l2jmobius.gameserver.data.xml.ClanShopData	ClanShopData: Loaded 13 clan shop products.
+2022.10.27 10:50:04,284	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Geodata ]
+2022.10.27 10:50:19,051	INFO	1	org.l2jmobius.gameserver.geoengine.GeoEngine	GeoEngine: Loaded 233 regions.
+2022.10.27 10:50:19,051	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ NPCs ]
+2022.10.27 10:50:27,553	INFO	1	org.l2jmobius.gameserver.data.xml.NpcData	NpcData: Loaded 14682 NPCs.
+2022.10.27 10:50:27,619	INFO	1	org.l2jmobius.gameserver.data.xml.NpcData	NpcData: Loaded 22 custom NPCs.
+2022.10.27 10:50:27,620	INFO	1	org.l2jmobius.gameserver.data.xml.FakePlayerData	FakePlayerData: Disabled.
+2022.10.27 10:50:27,622	INFO	1	org.l2jmobius.gameserver.instancemanager.FakePlayerChatManager	FakePlayerChatManager: Disabled.
+2022.10.27 10:50:31,501	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: Loaded 62083 spawns
+2022.10.27 10:50:31,601	INFO	1	org.l2jmobius.gameserver.instancemanager.WalkingManager	WalkingManager: Loaded 197 walking routes.
+2022.10.27 10:50:31,720	INFO	1	org.l2jmobius.gameserver.data.xml.StaticObjectData	StaticObjectData: Loaded 86 static object templates.
+2022.10.27 10:50:31,798	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 21 item(s) and registered 1 auction(s) for instance 34328
+2022.10.27 10:50:31,807	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 1 on 17:00:00 29.10.22 for instance 34328
+2022.10.27 10:50:31,807	INFO	1	org.l2jmobius.gameserver.instancemanager.ItemAuctionManager	ItemAuctionManager: Loaded 1 instances.
+2022.10.27 10:50:31,999	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded 325 instance names.
+2022.10.27 10:50:33,397	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded 159 instance templates.
+2022.10.27 10:50:33,415	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded instance reenter times for 0 players.
+2022.10.27 10:50:33,477	INFO	1	org.l2jmobius.gameserver.instancemanager.CastleManager	CastleManager: Loaded 9 castles.
+2022.10.27 10:50:33,485	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Fafurion(19740) status is 0
+2022.10.27 10:50:33,485	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Kelbim(26124) status is 0
+2022.10.27 10:50:33,485	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Core(29006) status is 0
+2022.10.27 10:50:33,485	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Baium(29020) status is 0
+2022.10.27 10:50:33,486	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Valakas(29028) status is 3
+2022.10.27 10:50:33,500	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Next spawn date of Valakas is Sat Nov 05 16:32:22 MSK 2022
+2022.10.27 10:50:33,500	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29068) status is 0
+2022.10.27 10:50:33,500	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Beleth(29118) status is 0
+2022.10.27 10:50:33,500	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Earth Wyrm Trasken(29197) status is 0
+2022.10.27 10:50:33,501	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Lindvior(29240) status is 0
+2022.10.27 10:50:33,501	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Helios(29305) status is 0
+2022.10.27 10:50:33,501	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Orfen(29325) status is 1
+2022.10.27 10:50:33,501	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Next spawn date of Orfen is Thu Oct 27 15:58:12 MSK 2022
+2022.10.27 10:50:33,501	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Lilith(29336) status is 2
+2022.10.27 10:50:33,501	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Next spawn date of Lilith is Thu Oct 27 21:00:08 MSK 2022
+2022.10.27 10:50:33,501	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Anakim(29348) status is 0
+2022.10.27 10:50:33,502	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Queen Ant(29381) status is 0
+2022.10.27 10:50:33,502	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Loaded 14 instances.
+2022.10.27 10:50:33,542	INFO	1	org.l2jmobius.commons.util.IXmlReader	HomunculusData: Loaded 30 templates.
+2022.10.27 10:50:33,557	INFO	1	org.l2jmobius.commons.util.IXmlReader	HomunculusSlotData: Loaded 9 templates.
+2022.10.27 10:50:33,574	INFO	1	org.l2jmobius.commons.util.IXmlReader	HomunculusCreationData: Loaded 2 templates.
+2022.10.27 10:50:33,574	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Instance ]
+2022.10.27 10:50:33,574	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Olympiad ]
+2022.10.27 10:50:33,593	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loading....
+2022.10.27 10:50:33,593	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2022.10.27 10:50:33,596	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: 37509 minutes until period ends
+2022.10.27 10:50:33,596	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Next weekly change is in 4881 minutes
+2022.10.27 10:50:33,596	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loaded 2 Nobles
+2022.10.27 10:50:33,602	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Competition Period Starts in 1 days, 9 hours and 10 mins.
+2022.10.27 10:50:33,603	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Event starts/started: Fri Oct 28 20:00:33 MSK 2022
+2022.10.27 10:50:33,607	INFO	1	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 Heroes.
+2022.10.27 10:50:33,607	INFO	1	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 all time Heroes.
+2022.10.27 10:50:33,608	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Cache ]
+2022.10.27 10:50:33,609	INFO	1	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 10:50:37,139	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 10:50:37,186	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 10:50:37,231	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 10:51:12,802	INFO	1	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,231 megabytes on 6376 files loaded.
+2022.10.27 10:51:12,819	INFO	1	org.l2jmobius.gameserver.data.sql.CrestTable	CrestTable: Loaded 3 Crests.
+2022.10.27 10:51:12,841	INFO	1	org.l2jmobius.gameserver.data.xml.TeleportListData	TeleportListData: Loaded 102 teleports.
+2022.10.27 10:51:13,942	INFO	1	org.l2jmobius.gameserver.data.xml.TeleporterData	TeleporterData: Loaded 168 npc teleporters.
+2022.10.27 10:51:13,970	INFO	1	org.l2jmobius.gameserver.data.xml.TimedHuntingZoneData	TimedHuntingZoneData: Loaded 8 timed hunting zones.
+2022.10.27 10:51:13,991	INFO	1	org.l2jmobius.gameserver.instancemanager.CursedWeaponsManager	CursedWeaponsManager: Loaded 2 cursed weapons.
+2022.10.27 10:51:15,069	INFO	1	org.l2jmobius.gameserver.data.xml.TransformData	TransformData: Loaded 180 transform templates.
+2022.10.27 10:51:15,098	INFO	1	org.l2jmobius.gameserver.data.BotReportTable	BotReportTable: Loaded 0 bot reports
+2022.10.27 10:51:15,127	INFO	1	org.l2jmobius.gameserver.instancemanager.SellBuffsManager	SellBuffsManager: Loaded 145 allowed buffs.
+2022.10.27 10:51:15,128	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Scripts ]
+2022.10.27 10:51:15,163	INFO	1	org.l2jmobius.gameserver.instancemanager.AirShipManager	AirShipManager: Loaded 0 private airships
+2022.10.27 10:51:15,204	INFO	1	org.l2jmobius.gameserver.data.xml.ShuttleData	ShuttleData: Loaded 3 shuttles.
+2022.10.27 10:51:15,205	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Loading server scripts:
+2022.10.27 10:51:23,787	INFO	1	handlers.MasterHandler	Loading Handlers...
+2022.10.27 10:51:23,967	INFO	1	handlers.MasterHandler	ActionHandler: Loaded 10 handlers.
+2022.10.27 10:51:23,967	INFO	1	handlers.MasterHandler	ActionShiftHandler: Loaded 6 handlers.
+2022.10.27 10:51:23,967	INFO	1	handlers.MasterHandler	AdminCommandHandler: Loaded 461 handlers.
+2022.10.27 10:51:23,968	INFO	1	handlers.MasterHandler	BypassHandler: Loaded 30 handlers.
+2022.10.27 10:51:23,968	INFO	1	handlers.MasterHandler	ChatHandler: Loaded 14 handlers.
+2022.10.27 10:51:23,968	INFO	1	handlers.MasterHandler	CommunityBoardHandler: Loaded 24 handlers.
+2022.10.27 10:51:23,968	INFO	1	handlers.MasterHandler	ItemHandler: Loaded 33 handlers.
+2022.10.27 10:51:23,968	INFO	1	handlers.MasterHandler	PunishmentHandler: Loaded 3 handlers.
+2022.10.27 10:51:23,968	INFO	1	handlers.MasterHandler	UserCommandHandler: Loaded 16 handlers.
+2022.10.27 10:51:23,968	INFO	1	handlers.MasterHandler	VoicedCommandHandler: Loaded 7 handlers.
+2022.10.27 10:51:23,968	INFO	1	handlers.MasterHandler	TargetHandler: Loaded 21 handlers.
+2022.10.27 10:51:23,968	INFO	1	handlers.MasterHandler	AffectObjectHandler: Loaded 11 handlers.
+2022.10.27 10:51:23,969	INFO	1	handlers.MasterHandler	AffectScopeHandler: Loaded 19 handlers.
+2022.10.27 10:51:23,969	INFO	1	handlers.MasterHandler	PlayerActionHandler: Loaded 24 handlers.
+2022.10.27 10:51:23,969	INFO	1	handlers.MasterHandler	Handlers Loaded...
+2022.10.27 10:51:34,205	INFO	1	ai.areas.FantasyIsle.HandysBlockCheckerEvent	Handy's Block Checker Event is enabled
+2022.10.27 10:51:34,252	INFO	1	ai.areas.FantasyIsle.Parade	Fantasy Isle: Parade starting at 2022/10/27 13:20 and is scheduled each next 1 hours.
+2022.10.27 10:51:34,285	INFO	1	ai.areas.FantasyIsle.TalentShow	Fantasy Isle: MC show script starting at 27/10/2022 14:12:34 and is scheduled each next 4 hours.
+2022.10.27 10:51:35,058	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Anakim(29348) status to 0.
+2022.10.27 10:51:35,164	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Etis van Etina(29318) status to 0.
+2022.10.27 10:51:35,194	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Fafurion(19740) status to 0.
+2022.10.27 10:51:35,223	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Helios(29305) status to 0.
+2022.10.27 10:51:35,284	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Lindvior(29240) status to 0.
+2022.10.27 10:51:35,414	INFO	1	ai.bosses.Tiat.Stage1	[Seed of Destruction] Loaded 51 spawn zones data.
+2022.10.27 10:51:35,527	INFO	1	ai.others.ClassMaster.ClassMaster	ClassMaster: Loaded 0 class change options.
+2022.10.27 10:51:35,720	INFO	1	ai.others.MentorGuide.MentorGuide	MentorGuide: Loaded 4 mentee coins
+2022.10.27 10:51:35,750	INFO	1	ai.others.NpcBuffers.NpcBuffersData	NpcBuffersData: Loaded 6 buffers data.
+2022.10.27 10:51:35,954	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Balthus Event has passed... Ignored 
+2022.10.27 10:51:35,964	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Birth of Draco has passed... Ignored 
+2022.10.27 10:51:35,973	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Dragon Slayer has passed... Ignored 
+2022.10.27 10:51:35,987	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Dream Maker has passed... Ignored 
+2022.10.27 10:51:36,013	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Eve the Fortune Teller active till Tue Dec 18 00:00:00 MSK 2029
+2022.10.27 10:51:36,032	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Freya Celebration has passed... Ignored 
+2022.10.27 10:51:36,041	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Gift of Vitality has passed... Ignored 
+2022.10.27 10:51:36,055	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Halloween has passed... Ignored 
+2022.10.27 10:51:36,065	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Heavy Medal has passed... Ignored 
+2022.10.27 10:51:36,074	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Hungry Horse has passed... Ignored 
+2022.10.27 10:51:36,085	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Hunt for Santa has passed... Ignored 
+2022.10.27 10:51:36,102	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Legend's Mark has passed... Ignored 
+2022.10.27 10:51:36,113	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Letter Collector has passed... Ignored 
+2022.10.27 10:51:36,123	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Lovers Jubilee has passed... Ignored 
+2022.10.27 10:51:36,133	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Love Your Gatekeeper has passed... Ignored 
+2022.10.27 10:51:36,138	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Master of Enchanting has passed... Ignored 
+2022.10.27 10:51:36,152	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Red Libra has passed... Ignored 
+2022.10.27 10:51:36,159	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Rudolphs Blessing has passed... Ignored 
+2022.10.27 10:51:36,186	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Saving Santa has passed... Ignored 
+2022.10.27 10:51:36,190	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event The Power Of Love has passed... Ignored 
+2022.10.27 10:51:36,212	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Training with Dandy has passed... Ignored 
+2022.10.27 10:51:36,599	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: Initializing spawns...
+2022.10.27 10:51:37,107	INFO	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Loaded 32 instances.
+2022.10.27 10:51:37,135	INFO	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Scheduled 1 instances.
+2022.10.27 10:52:03,418	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: All spawns has been initialized!
+2022.10.27 10:52:03,418	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Siege ]
+2022.10.27 10:52:03,480	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Gludio: Sun Nov 06 16:00:00 MSK 2022
+2022.10.27 10:52:03,482	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Dion: Sun Nov 06 20:00:00 MSK 2022
+2022.10.27 10:52:03,483	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Giran: Sun Nov 06 16:00:00 MSK 2022
+2022.10.27 10:52:03,483	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Oren: Sun Nov 06 20:00:00 MSK 2022
+2022.10.27 10:52:03,484	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Aden: Sun Nov 06 16:00:00 MSK 2022
+2022.10.27 10:52:03,484	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Innadril: Sun Nov 06 20:00:00 MSK 2022
+2022.10.27 10:52:03,485	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Goddard: Sun Nov 06 16:00:00 MSK 2022
+2022.10.27 10:52:03,485	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Rune: Sun Nov 06 20:00:00 MSK 2022
+2022.10.27 10:52:03,486	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Schuttgart: Sun Nov 06 16:00:00 MSK 2022
+2022.10.27 10:52:03,681	INFO	1	org.l2jmobius.gameserver.instancemanager.FortManager	FortManager: Loaded 20 fortress.
+2022.10.27 10:52:03,950	INFO	1	org.l2jmobius.gameserver.data.xml.SiegeScheduleData	SiegeScheduleData: Loaded 9 siege schedulers.
+2022.10.27 10:52:03,989	INFO	1	org.l2jmobius.gameserver.instancemanager.CastleManorManager	CastleManorManager: Loaded 258 seeds.
+2022.10.27 10:52:04,000	INFO	1	org.l2jmobius.gameserver.instancemanager.CastleManorManager	CastleManorManager: Manor data loaded.
+2022.10.27 10:52:04,034	INFO	1	org.l2jmobius.gameserver.instancemanager.SiegeGuardManager	SiegeGuardManager: Loaded 0 siege guards tickets.
+2022.10.27 10:52:04,034	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 56 quests.
+2022.10.27 10:52:04,034	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 428 scripts.
+2022.10.27 10:52:04,051	INFO	1	org.l2jmobius.gameserver.taskmanager.TaskManager	TaskManager: Loaded 5 Tasks.
+2022.10.27 10:52:04,054	INFO	1	org.l2jmobius.gameserver.instancemanager.DailyTaskManager	DailyTaskManager: Next schedule at 28/10 06:30.
+2022.10.27 10:52:04,058	INFO	1	org.l2jmobius.gameserver.instancemanager.MailManager	MailManager: Loaded 0 messages.
+2022.10.27 10:52:04,084	INFO	1	org.l2jmobius.gameserver.instancemanager.PunishmentManager	PunishmentManager: Loaded 0 active and 0 expired punishments.
+2022.10.27 10:52:04,085	INFO	1	org.l2jmobius.gameserver.GameServer	IdManager: Free ObjectID's remaining: 1878974419
+2022.10.27 10:52:04,109	INFO	1	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loading offline traders...
+2022.10.27 10:52:04,111	INFO	1	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loaded 0 offline traders.
+2022.10.27 10:52:06,032	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Started, using 2713 of 6144 MB total memory.
+2022.10.27 10:52:06,033	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Maximum number of connected players is 2000.
+2022.10.27 10:52:06,034	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Server loaded in 188 seconds.
+2022.10.27 10:52:06,354	INFO	1	org.l2jmobius.commons.network.NetworkManager	ClientNetworkManager: Listening on 192.168.1.66:7777
+2022.10.27 10:52:06,374	INFO	58	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 192.168.1.66:9014
+2022.10.27 10:52:06,496	INFO	58	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 2: Sieghardt
+2022.10.27 10:54:11,832	WARNING	60	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character АЛ-Акир! Just a warning to be careful ;)
+2022.10.27 10:54:12,432	WARNING	60	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Call to unexisting skill level id: 29394 requested level: 8 max level: 6.
+2022.10.27 10:57:27,557	WARNING	61	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character МОЕЙ ВОЛИ! Just a warning to be careful ;)
+2022.10.27 10:57:57,075	INFO	22	org.l2jmobius.gameserver.ui.SystemPanel	New maximum connected count of 2!
+2022.10.27 11:19:22,662	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:19:23,263	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:19:23,267	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:19:23,268	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:19:26,791	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,238 megabytes on 6376 files loaded.
+2022.10.27 11:20:55,988	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:20:56,123	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:20:56,128	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:20:56,129	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:20:57,689	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,245 megabytes on 6376 files loaded.
+2022.10.27 11:21:38,592	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:21:38,710	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:21:38,715	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:21:38,718	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:21:40,074	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,252 megabytes on 6376 files loaded.
+2022.10.27 11:22:05,224	INFO	39	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 11:22:19,357	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:22:19,471	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:22:19,473	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:22:19,473	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:22:20,787	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,259 megabytes on 6376 files loaded.
+2022.10.27 11:22:40,555	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:22:40,671	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:22:40,672	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:22:40,672	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:22:42,294	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,267 megabytes on 6376 files loaded.
+2022.10.27 11:24:39,116	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_drop'
+2022.10.27 11:24:44,039	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_drop_list'
+2022.10.27 11:25:02,286	INFO	51	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Created file: data/spawns/Others/25_15.xml
+2022.10.27 11:25:48,625	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:25:48,747	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:25:48,749	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:25:48,749	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:25:50,054	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,274 megabytes on 6376 files loaded.
+2022.10.27 11:27:21,888	WARNING	45	org.l2jmobius.gameserver.handler.AdminCommandHandler	Exception during execution of admin_setcharquest АЛ-Акир Q00933_TombRaiders state DELETE
+2022.10.27 11:27:38,800	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:27:38,916	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:27:38,917	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:27:38,918	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:27:40,216	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,281 megabytes on 6376 files loaded.
+2022.10.27 11:30:05,374	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:30:05,510	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:30:05,511	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/donationmain.html contains non ASCII content.
+2022.10.27 11:30:05,511	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:30:05,512	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:30:07,061	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,299 megabytes on 6377 files loaded.
+2022.10.27 11:30:39,105	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:30:39,219	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:30:39,220	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/donationmain.html contains non ASCII content.
+2022.10.27 11:30:39,220	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:30:39,220	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:30:40,630	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,306 megabytes on 6377 files loaded.
+2022.10.27 11:39:52,490	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:39:52,605	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:39:52,606	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/donationmain.html contains non ASCII content.
+2022.10.27 11:39:52,606	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:39:52,607	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:39:53,816	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,311 megabytes on 6377 files loaded.
+2022.10.27 11:46:23,496	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Player:АЛ-Акир[268513303]: tried to crystallize Red Assassin Suit(81397)
+2022.10.27 11:46:25,907	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Player:АЛ-Акир[268513303]: tried to crystallize Red Assassin Suit(81397)
+2022.10.27 11:47:32,098	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:47:32,221	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:47:32,222	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/donationmain.html contains non ASCII content.
+2022.10.27 11:47:32,223	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:47:32,223	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:47:32,223	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 11:47:33,585	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,325 megabytes on 6379 files loaded.
+2022.10.27 11:48:02,669	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:48:02,786	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:48:02,788	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/donationmain.html contains non ASCII content.
+2022.10.27 11:48:02,788	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:48:02,789	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:48:02,789	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 11:48:04,263	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,333 megabytes on 6379 files loaded.
+2022.10.27 11:52:04,615	INFO	39	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 11:53:39,158	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:53:39,311	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:53:39,312	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/donationmain.html contains non ASCII content.
+2022.10.27 11:53:39,312	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:53:39,313	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:53:39,313	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 11:53:40,661	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,340 megabytes on 6379 files loaded.
+2022.10.27 11:55:49,231	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:55:49,353	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:55:49,354	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/donationmain.html contains non ASCII content.
+2022.10.27 11:55:49,354	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:55:49,354	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:55:49,355	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 11:55:50,691	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,348 megabytes on 6379 files loaded.
+2022.10.27 11:56:45,753	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:56:45,865	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:56:45,865	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/donationmain.html contains non ASCII content.
+2022.10.27 11:56:45,866	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:56:45,866	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:56:45,867	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 11:56:47,042	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,355 megabytes on 6379 files loaded.
+2022.10.27 11:58:56,481	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 11:58:56,594	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 11:58:56,595	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/donationmain.html contains non ASCII content.
+2022.10.27 11:58:56,596	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 11:58:56,596	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 11:58:56,597	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 11:58:57,930	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,363 megabytes on 6379 files loaded.
+2022.10.27 12:01:30,376	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:01:30,495	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:01:30,498	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:01:30,499	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:01:30,500	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:01:30,501	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:01:31,933	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,385 megabytes on 6381 files loaded.
+2022.10.27 12:04:22,074	INFO	22	org.l2jmobius.gameserver.ui.SystemPanel	New maximum connected count of 3!
+2022.10.27 12:05:07,087	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:05:07,206	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:05:07,208	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:05:07,209	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:05:07,213	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:05:07,215	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:05:08,479	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,391 megabytes on 6381 files loaded.
+2022.10.27 12:06:48,239	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:06:48,368	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:06:48,374	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:06:48,375	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:06:48,376	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:06:48,380	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:06:49,810	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,398 megabytes on 6381 files loaded.
+2022.10.27 12:07:53,454	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:07:53,566	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:07:53,568	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:07:53,569	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:07:53,570	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:07:53,571	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:07:55,038	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,405 megabytes on 6381 files loaded.
+2022.10.27 12:09:18,067	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:09:18,238	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:09:18,239	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:09:18,240	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:09:18,240	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:09:18,241	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:09:19,418	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,413 megabytes on 6381 files loaded.
+2022.10.27 12:10:23,248	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:10:23,365	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:10:23,367	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:10:23,367	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:10:23,368	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:10:23,368	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:10:24,497	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,420 megabytes on 6381 files loaded.
+2022.10.27 12:12:13,300	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:12:13,421	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:12:13,423	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:12:13,423	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:12:13,424	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:12:13,425	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:12:15,250	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,428 megabytes on 6381 files loaded.
+2022.10.27 12:12:45,620	WARNING	117	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character МОЕЙ ВОЛИ! Just a warning to be careful ;)
+2022.10.27 12:16:18,811	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:16:18,921	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:16:18,922	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:16:18,923	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:16:18,923	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:16:18,924	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:16:20,202	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,436 megabytes on 6381 files loaded.
+2022.10.27 12:16:29,602	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:16:29,708	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:16:29,710	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:16:29,711	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:16:29,711	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:16:29,712	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:16:30,859	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,443 megabytes on 6381 files loaded.
+2022.10.27 12:22:04,519	INFO	38	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 12:22:42,491	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:22:42,608	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:22:42,626	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:22:42,627	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:22:42,627	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:22:42,628	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:22:43,855	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,450 megabytes on 6381 files loaded.
+2022.10.27 12:23:19,662	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:23:19,780	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:23:19,782	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:23:19,783	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:23:19,784	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:23:19,784	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:23:21,230	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,458 megabytes on 6381 files loaded.
+2022.10.27 12:24:34,947	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:24:35,058	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:24:35,060	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:24:35,061	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:24:35,061	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:24:35,063	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:24:36,306	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,465 megabytes on 6381 files loaded.
+2022.10.27 12:24:41,308	WARNING	117	org.l2jmobius.gameserver.network.PacketLogger	Exception processing bypass from Player:МОЕЙ ВОЛИ[268511586]: _bbsmultisell;700010 Index 1 out of bounds for length 1
+2022.10.27 12:24:46,383	WARNING	117	org.l2jmobius.gameserver.network.PacketLogger	Exception processing bypass from Player:МОЕЙ ВОЛИ[268511586]: _bbsmultisell;700010 Index 1 out of bounds for length 1
+2022.10.27 12:25:10,920	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:25:11,054	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:25:11,055	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:25:11,058	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:25:11,058	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:25:11,063	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:25:12,218	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,473 megabytes on 6381 files loaded.
+2022.10.27 12:25:15,742	WARNING	117	org.l2jmobius.gameserver.network.PacketLogger	Exception processing bypass from Player:МОЕЙ ВОЛИ[268511586]: _bbsmultisell;700010, Index 1 out of bounds for length 1
+2022.10.27 12:25:50,233	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:25:50,411	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:25:50,412	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:25:50,413	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:25:50,414	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:25:50,415	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:25:51,555	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,480 megabytes on 6381 files loaded.
+2022.10.27 12:32:08,689	INFO	20	org.l2jmobius.gameserver.data.xml.MultisellData	MultisellData: Loaded 601 multisell lists.
+2022.10.27 12:35:57,544	INFO	20	org.l2jmobius.gameserver.data.xml.MultisellData	MultisellData: Loaded 601 multisell lists.
+2022.10.27 12:38:02,835	INFO	20	org.l2jmobius.gameserver.data.xml.MultisellData	MultisellData: Loaded 601 multisell lists.
+2022.10.27 12:38:57,031	INFO	20	org.l2jmobius.gameserver.data.xml.MultisellData	MultisellData: Loaded 601 multisell lists.
+2022.10.27 12:45:32,783	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:45:32,905	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:45:32,907	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:45:32,907	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:45:32,908	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:45:32,909	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:45:34,232	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,488 megabytes on 6381 files loaded.
+2022.10.27 12:47:07,710	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 12:47:07,824	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 12:47:07,826	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 12:47:07,827	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 12:47:07,827	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 12:47:07,828	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 12:47:09,195	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,495 megabytes on 6381 files loaded.
+2022.10.27 12:52:04,523	INFO	39	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 13:07:49,740	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 13:07:49,870	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 13:07:49,871	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 13:07:49,872	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 13:07:49,873	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 13:07:49,874	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 13:07:51,265	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,501 megabytes on 6381 files loaded.
+2022.10.27 13:10:42,835	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 13:10:42,951	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 13:10:42,953	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 13:10:42,953	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 13:10:42,953	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 13:10:42,954	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 13:10:44,372	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,509 megabytes on 6381 files loaded.
+2022.10.27 13:13:00,496	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 13:13:00,609	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 13:13:00,611	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 13:13:00,612	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 13:13:00,612	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 13:13:00,613	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 13:13:01,854	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,516 megabytes on 6381 files loaded.
+2022.10.27 13:14:00,212	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 13:14:00,321	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 13:14:00,322	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 13:14:00,323	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 13:14:00,324	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 13:14:00,324	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 13:14:01,470	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,524 megabytes on 6381 files loaded.
+2022.10.27 13:15:17,501	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 13:15:17,625	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 13:15:17,628	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 13:15:17,629	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 13:15:17,629	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 13:15:17,637	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 13:15:18,804	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,531 megabytes on 6381 files loaded.
+2022.10.27 13:15:22,118	INFO	20	org.l2jmobius.gameserver.data.xml.MultisellData	MultisellData: Loaded 601 multisell lists.
+2022.10.27 13:16:57,696	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 13:16:57,820	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 13:16:57,822	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 13:16:57,823	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 13:16:57,823	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 13:16:57,824	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 13:16:59,081	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,539 megabytes on 6381 files loaded.
+2022.10.27 13:18:45,499	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 13:18:45,624	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 13:18:45,626	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 13:18:45,631	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 13:18:45,634	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 13:18:45,636	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 13:18:46,881	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,546 megabytes on 6381 files loaded.
+2022.10.27 13:22:04,690	INFO	40	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 13:50:37,102	WARNING	117	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 13:52:04,572	INFO	38	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 13:53:33,025	WARNING	117	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_listinstances'
+2022.10.27 14:02:15,360	WARNING	41	org.l2jmobius.gameserver.model.instancezone.Instance	Could not insert character instance reenter data: 
+2022.10.27 14:05:10,033	WARNING	31	org.l2jmobius.gameserver.model.instancezone.Instance	Could not insert character instance reenter data: 
+2022.10.27 14:05:10,037	SEVERE	31	org.l2jmobius.gameserver.model.olympiad.Hero	SQL exception while saving DiaryData: (conn=284577) Interrupted reading remaining batch response 
+2022.10.27 14:22:04,612	INFO	37	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 14:52:04,579	INFO	39	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 15:22:04,552	INFO	38	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 15:52:05,736	INFO	37	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 15:58:13,752	INFO	31	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Orfen(29325) status to 0.
+2022.10.27 16:22:04,748	INFO	37	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 16:52:04,766	INFO	38	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 17:22:04,834	INFO	37	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 17:52:04,818	INFO	37	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 18:22:04,546	INFO	40	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 18:52:04,779	INFO	40	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 19 variables.
+2022.10.27 18:58:56,711	WARNING	60	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character МОЕЙ ВОЛИ! Just a warning to be careful ;)
+2022.10.27 19:01:28,753	WARNING	61	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character АЛ-Акир! Just a warning to be careful ;)
+2022.10.27 19:03:03,939	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:03:05,854	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:03:29,139	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:05:38,030	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:05:38,305	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:06:37,100	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:07:56,277	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:08:59,705	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:09:36,633	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:10:47,186	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:10:55,724	INFO	47	org.l2jmobius.gameserver.model.CursedWeapon	Demonic Sword Zariche being removed online.
+2022.10.27 19:11:19,411	INFO	43	org.l2jmobius.gameserver.model.CursedWeapon	Blood Sword Akamanah item has been removed from World.
+2022.10.27 19:12:08,247	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:12:16,756	WARNING	61	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_cw_spawn'
+2022.10.27 19:12:21,393	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:12:22,464	WARNING	61	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_sw_add'
+2022.10.27 19:13:03,526	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:13:24,471	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:14:17,105	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 19:16:34,483	INFO	50	org.l2jmobius.gameserver.model.CursedWeapon	Demonic Sword Zariche being removed online.
+2022.10.27 19:22:04,514	INFO	38	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 20 variables.
+2022.10.27 19:38:18,443	WARNING	61	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character АЛ-Акир! Just a warning to be careful ;)
+2022.10.27 19:52:04,581	INFO	38	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 20 variables.
+2022.10.27 19:58:41,536	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_action'
+2022.10.27 19:58:47,994	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_bypass'
+2022.10.27 20:02:45,589	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 20:02:49,241	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 20:02:49,289	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 20:02:49,312	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 20:02:49,337	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 20:02:49,351	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 20:03:19,087	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,553 megabytes on 6381 files loaded.
+2022.10.27 20:03:39,329	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 20:03:39,436	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 20:03:39,437	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 20:03:39,438	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 20:03:39,438	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 20:03:39,439	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 20:03:40,487	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,561 megabytes on 6381 files loaded.
+2022.10.27 20:04:52,968	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 20:04:53,073	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 20:04:53,074	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 20:04:53,075	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 20:04:53,075	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 20:04:53,076	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 20:04:54,125	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,568 megabytes on 6381 files loaded.
+2022.10.27 20:05:03,456	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	[Character: МОЕЙ ВОЛИ[268511586] - Account: admin - IP: 128.0.131.163] sent not handled RequestBypassToServer: [_bbsskill;39407,1;39408,1;39409,1;39410,1;39411,1;39412,1;39413,1;39414,1;39415,1;39416,1;39417,1;buffer/main]
+2022.10.27 20:05:39,054	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 20:05:39,157	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 20:05:39,159	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 20:05:39,159	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 20:05:39,160	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 20:05:39,160	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 20:05:40,222	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,576 megabytes on 6381 files loaded.
+2022.10.27 20:07:18,307	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_bbsinfo'
+2022.10.27 20:09:09,257	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_bbsmultisell'
+2022.10.27 20:11:46,618	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_bbshome'
+2022.10.27 20:11:57,027	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin__bbshome'
+2022.10.27 20:21:43,101	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_come_to_me'
+2022.10.27 20:22:04,575	INFO	37	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 20 variables.
+2022.10.27 20:23:27,578	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_debug'
+2022.10.27 20:48:16,716	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	[Character: АЛ-Акир[268513303] - Account: snak - IP: 46.242.9.230] sent not handled RequestBypassToServer: [_bbspremium;30]
+2022.10.27 20:49:14,660	INFO	20	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml exists using manual configuration...
+2022.10.27 20:49:15,021	INFO	20	org.l2jmobius.Config	Loaded 6 Filter Words.
+2022.10.27 20:49:25,216	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	[Character: МОЕЙ ВОЛИ[268511586] - Account: admin - IP: 128.0.131.163] sent not handled RequestBypassToServer: [_bbspremium;1]
+2022.10.27 20:49:49,446	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	[Character: МОЕЙ ВОЛИ[268511586] - Account: admin - IP: 128.0.131.163] sent not handled RequestBypassToServer: [_bbsdelevel]
+2022.10.27 20:51:17,703	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	[Character: АЛ-Акир[268513303] - Account: snak - IP: 46.242.9.230] sent not handled RequestBypassToServer: [_bbsdelevel]
+2022.10.27 20:51:29,437	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	[Character: АЛ-Акир[268513303] - Account: snak - IP: 46.242.9.230] sent not handled RequestBypassToServer: [_bbsdelevel]
+2022.10.27 20:51:46,633	WARNING	107	org.l2jmobius.gameserver.network.PacketLogger	[Character: Ня[268558960] - Account: zag - IP: 46.242.9.230] sent not handled RequestBypassToServer: [_bbsdelevel]
+2022.10.27 20:52:03,120	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	[Character: АЛ-Акир[268513303] - Account: snak - IP: 46.242.9.230] sent not handled RequestBypassToServer: [_bbspremium;1]
+2022.10.27 20:52:04,541	INFO	37	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 20 variables.
+2022.10.27 20:52:33,933	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 20:53:45,779	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 20:56:56,678	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 20:57:04,808	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 20:57:04,918	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 20:57:04,919	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 20:57:04,920	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 20:57:04,920	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 20:57:04,921	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 20:57:05,988	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,583 megabytes on 6381 files loaded.
+2022.10.27 20:57:32,792	INFO	20	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml exists using manual configuration...
+2022.10.27 20:57:32,798	INFO	20	org.l2jmobius.Config	Loaded 6 Filter Words.
+2022.10.27 20:57:36,016	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.27 20:57:36,121	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/donationmerchant/main.html contains non ASCII content.
+2022.10.27 20:57:36,123	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+2022.10.27 20:57:36,123	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+2022.10.27 20:57:36,124	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+2022.10.27 20:57:36,124	WARNING	20	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/CommunityBoard/Custom/outlook/main.html contains non ASCII content.
+2022.10.27 20:57:37,157	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,591 megabytes on 6381 files loaded.
+2022.10.27 20:58:38,825	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 20:58:40,069	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 20:59:16,189	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:00:08,646	INFO	40	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Lilith(29336) status to 0.
+2022.10.27 21:03:36,242	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:04:14,852	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:04:17,281	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:05:04,638	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:05:05,343	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:06:39,323	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:07:06,418	WARNING	61	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:09:55,119	WARNING	60	org.l2jmobius.gameserver.network.GameClient	Exception for: [Character: МОЕЙ ВОЛИ[268511586] - Account: admin - IP: 128.0.131.163] on packet.run: RequestRestartPoint
+2022.10.27 21:10:28,574	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:13:55,520	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:14:27,938	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:15:48,213	WARNING	60	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character МОЕЙ ВОЛИ! Just a warning to be careful ;)
+2022.10.27 21:22:04,793	INFO	38	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 20 variables.
+2022.10.27 21:23:29,959	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Gludio has an OwnerId = 268559956 who does not have a  name!
+2022.10.27 21:23:29,959	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	Castle owner with no name! Castle: Giran has an OwnerId = 268516419 who does not have a  name!
+2022.10.27 21:28:48,503	WARNING	20	org.l2jmobius.gameserver.Shutdown	Server scheduled restart issued shutdown command. Shutdown in 10 seconds!
+2022.10.27 21:28:54,632	WARNING	58	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not avaible, trying to reconnect...
+2022.10.27 21:28:58,553	WARNING	844	org.l2jmobius.gameserver.Shutdown	GM shutdown countdown is over. shutting down NOW!
+2022.10.27 21:28:58,563	INFO	55	org.l2jmobius.gameserver.Shutdown	All players disconnected and saved(0ms).
+2022.10.27 21:28:58,563	INFO	55	org.l2jmobius.gameserver.Shutdown	Movement Task Manager: Thread interruped(0ms).
+2022.10.27 21:28:58,564	INFO	55	org.l2jmobius.gameserver.Shutdown	Game Time Task Manager: Thread interruped(1ms).
+2022.10.27 21:28:58,564	INFO	55	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Shutting down.
+2022.10.27 21:28:58,565	INFO	55	org.l2jmobius.gameserver.Shutdown	Thread Pool Manager: Manager has been shut down(1ms).
+2022.10.27 21:28:58,565	INFO	58	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 192.168.1.66:9014
+2022.10.27 21:28:58,565	INFO	55	org.l2jmobius.gameserver.Shutdown	Login Server Thread: Thread interruped(0ms).
+2022.10.27 21:28:58,622	INFO	55	org.l2jmobius.gameserver.network.telnet.TelnetServer	Shutting down..
+2022.10.27 21:28:58,623	INFO	55	org.l2jmobius.gameserver.Shutdown	Telnet Server Thread: Thread interruped(57ms).
+2022.10.27 21:28:58,624	INFO	55	org.l2jmobius.gameserver.Shutdown	GM shutdown received. Shutting down NOW!
+2022.10.27 21:28:58,982	INFO	55	org.l2jmobius.gameserver.Shutdown	RaidBossSpawnManager: All raidboss info saved(358ms).
+2022.10.27 21:28:58,986	INFO	55	org.l2jmobius.gameserver.Shutdown	GrandBossManager: All Grand Boss info saved(4ms).
+2022.10.27 21:28:58,986	INFO	55	org.l2jmobius.gameserver.Shutdown	Item Auction Manager: All tasks stopped(0ms).
+2022.10.27 21:28:59,025	INFO	55	org.l2jmobius.gameserver.Shutdown	Olympiad System: Data saved(39ms).
+2022.10.27 21:28:59,041	INFO	55	org.l2jmobius.gameserver.Shutdown	Hero System: Data saved(16ms).
+2022.10.27 21:28:59,096	INFO	55	org.l2jmobius.gameserver.Shutdown	Clan System: Data saved(55ms).
+2022.10.27 21:28:59,097	INFO	55	org.l2jmobius.gameserver.Shutdown	Cursed Weapons Manager: Data saved(1ms).
+2022.10.27 21:28:59,098	INFO	55	org.l2jmobius.gameserver.Shutdown	Castle Manor Manager: Data saved(1ms).
+2022.10.27 21:28:59,322	INFO	55	org.l2jmobius.gameserver.Shutdown	Quest Manager: Data saved(205ms).
+2022.10.27 21:29:00,081	INFO	55	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 20 variables.
+2022.10.27 21:29:00,082	INFO	55	org.l2jmobius.gameserver.Shutdown	Global Variables Manager: Variables saved(779ms).
+2022.10.27 21:29:00,094	INFO	55	org.l2jmobius.gameserver.Shutdown	Bot Report Table: Successfully saved reports to database!
+2022.10.27 21:29:00,654	WARNING	58	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not avaible, trying to reconnect...
+2022.10.27 21:29:05,120	INFO	55	org.l2jmobius.gameserver.Shutdown	Game Server: Selector thread has been shut down(25ms).
+2022.10.27 21:29:05,382	INFO	55	org.l2jmobius.gameserver.Shutdown	Database Factory: Database connection has been shut down(262ms).

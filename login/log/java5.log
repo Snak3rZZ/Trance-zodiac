@@ -1,0 +1,17 @@
+2022.10.24 15:38:38,263	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
+2022.10.24 15:38:38,331	INFO	1	org.l2jmobius.loginserver.LoginController	Loading LoginController...
+2022.10.24 15:38:39,029	INFO	1	org.l2jmobius.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
+2022.10.24 15:38:39,124	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 127 server names.
+2022.10.24 15:38:39,126	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 1 registered Game Servers.
+2022.10.24 15:38:39,208	INFO	1	org.l2jmobius.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2022.10.24 15:38:39,213	INFO	1	org.l2jmobius.loginserver.LoginServer	Loaded 2 IP Bans.
+2022.10.24 15:38:39,243	INFO	1	org.l2jmobius.loginserver.LoginServer	Listening for GameServers on 192.168.1.66:9014
+2022.10.24 15:38:39,514	INFO	1	org.l2jmobius.commons.network.NetworkManager	ClientNetworkManager: Listening on 192.168.1.66:2106
+2022.10.24 15:40:28,999	INFO	34	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2022.10.24 15:40:29,001	INFO	34	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2022.10.24 15:40:29,001	INFO	34	org.l2jmobius.loginserver.GameServerThread	10.0.0.0/10.0.0.0/8
+2022.10.24 15:40:29,001	INFO	34	org.l2jmobius.loginserver.GameServerThread	172.16.0.0/172.16.0.0/19
+2022.10.24 15:40:29,001	INFO	34	org.l2jmobius.loginserver.GameServerThread	192.168.0.0/192.168.0.0/16
+2022.10.24 15:40:29,002	INFO	34	org.l2jmobius.loginserver.GameServerThread	192.168.0.0/192.168.0.0/24
+2022.10.24 15:40:29,002	INFO	34	org.l2jmobius.loginserver.GameServerThread	192.168.1.0/192.168.1.0/24
+2022.10.24 15:40:29,002	INFO	34	org.l2jmobius.loginserver.GameServerThread	128.0.131.163/0.0.0.0/0

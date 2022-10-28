@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>-1</npc> <!-- CB -->
+	</npcs>
+	<item>
+		<ingredient count="1000000000" id="57" /> <!-- Adena -->
+		<production count="1" id="47916" /> <!-- Nevit's Cloak of Light -->
+	</item>
+<!--	<item>-->
+<!--		&lt;!&ndash; Adena &ndash;&gt;-->
+<!--		<ingredient count="6000000" id="57" />-->
+<!--		&lt;!&ndash; Abelius Cloak (Sigel Knight) &ndash;&gt;-->
+<!--		<production count="1" id="30310" />-->
+<!--	</item>-->
+<!--	<item>-->
+<!--		&lt;!&ndash; Adena &ndash;&gt;-->
+<!--		<ingredient count="6000000" id="57" />-->
+<!--		&lt;!&ndash; Sapyros Cloak (Tyrr Warrior) &ndash;&gt;-->
+<!--		<production count="1" id="30311" />-->
+<!--	</item>-->
+<!--	<item>-->
+<!--		&lt;!&ndash; Adena &ndash;&gt;-->
+<!--		<ingredient count="6000000" id="57" />-->
+<!--		&lt;!&ndash; Ashagen Cloak (Othell Rogue) &ndash;&gt;-->
+<!--		<production count="1" id="30312" />-->
+<!--	</item>-->
+<!--	<item>-->
+<!--		&lt;!&ndash; Adena &ndash;&gt;-->
+<!--		<ingredient count="6000000" id="57" />-->
+<!--		&lt;!&ndash; Cranigg Cloak (Yul Archer) &ndash;&gt;-->
+<!--		<production count="1" id="30313" />-->
+<!--	</item>-->
+<!--	<item>-->
+<!--		&lt;!&ndash; Adena &ndash;&gt;-->
+<!--		<ingredient count="6000000" id="57" />-->
+<!--		&lt;!&ndash; Soltkreig Cloak (Feoh Wizard) &ndash;&gt;-->
+<!--		<production count="1" id="30314" />-->
+<!--	</item>-->
+<!--	<item>-->
+<!--		&lt;!&ndash; Adena &ndash;&gt;-->
+<!--		<ingredient count="6000000" id="57" />-->
+<!--		&lt;!&ndash; Naviarope Cloak (Wynn Summoner) &ndash;&gt;-->
+<!--		<production count="1" id="30315" />-->
+<!--	</item>-->
+<!--	<item>-->
+<!--		&lt;!&ndash; Adena &ndash;&gt;-->
+<!--		<ingredient count="6000000" id="57" />-->
+<!--		&lt;!&ndash; Leister Cloak (Iss Enchanter) &ndash;&gt;-->
+<!--		<production count="1" id="30316" />-->
+<!--	</item>-->
+<!--	<item>-->
+<!--		&lt;!&ndash; Adena &ndash;&gt;-->
+<!--		<ingredient count="6000000" id="57" />-->
+<!--		&lt;!&ndash; Lakcis Cloak (Aeore Healer) &ndash;&gt;-->
+<!--		<production count="1" id="30317" />-->
+<!--	</item>-->
+</list>

@@ -1,0 +1,3 @@
+24/10/2022 0:59:45>Admin [268511586]>Drop>no-target>(id: 6366 name: Imperial Staff objId: 268511871 x: -56886 y: 43754 z: -1552)
+24/10/2022 0:59:48>Admin [268511586]>Drop>no-target>(id: 15684 name: Triumph Two Hand Staff objId: 268511859 x: -56886 y: 43754 z: -1552)
+24/10/2022 1:00:20>Admin [268511586]>Drop>no-target>(id: 15685 name: Triumph Magic Sword objId: 268511853 x: -56886 y: 43754 z: -1552)

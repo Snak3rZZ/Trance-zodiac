@@ -1,0 +1,45 @@
+окт. 24, 2022 12:09:25 AM org.l2jmobius.gameserver.model.quest.Quest showError
+WARNING: F:\l2ServerMain\game\data\scripts\ai\bosses\Fafurion\Fafurion.java
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.actor.instance.GrandBoss.getId()" because "ai.bosses.Fafurion.Fafurion._fafurion" is null
+	at ai.bosses.Fafurion.Fafurion.onKill(Fafurion.java:434)
+	at org.l2jmobius.gameserver.model.quest.Quest.notifyKill(Quest.java:623)
+	at org.l2jmobius.gameserver.model.quest.Quest.lambda$addKillId$13(Quest.java:1945)
+	at org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener.executeEvent(ConsumerEventListener.java:44)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyToListeners(EventDispatcher.java:289)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyEventToSingleContainer(EventDispatcher.java:182)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.lambda$notifyEventAsync$0(EventDispatcher.java:144)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+окт. 24, 2022 12:46:00 AM org.l2jmobius.gameserver.model.quest.Quest showError
+WARNING: F:\l2ServerMain\game\data\scripts\ai\bosses\Helios\Helios.java
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.actor.Npc.deleteMe()" because "ai.bosses.Helios.Helios._bossInstance" is null
+	at ai.bosses.Helios.Helios.onKill(Helios.java:464)
+	at org.l2jmobius.gameserver.model.quest.Quest.notifyKill(Quest.java:623)
+	at org.l2jmobius.gameserver.model.quest.Quest.lambda$addKillId$13(Quest.java:1945)
+	at org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener.executeEvent(ConsumerEventListener.java:44)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyToListeners(EventDispatcher.java:289)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyEventToSingleContainer(EventDispatcher.java:182)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.lambda$notifyEventAsync$0(EventDispatcher.java:144)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+окт. 24, 2022 12:46:14 AM org.l2jmobius.gameserver.model.quest.Quest showError
+WARNING: F:\l2ServerMain\game\data\scripts\ai\bosses\Helios\Helios.java
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.actor.Npc.deleteMe()" because "ai.bosses.Helios.Helios._bossInstance" is null
+	at ai.bosses.Helios.Helios.onKill(Helios.java:464)
+	at org.l2jmobius.gameserver.model.quest.Quest.notifyKill(Quest.java:623)
+	at org.l2jmobius.gameserver.model.quest.Quest.lambda$addKillId$13(Quest.java:1945)
+	at org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener.executeEvent(ConsumerEventListener.java:44)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyToListeners(EventDispatcher.java:289)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyEventToSingleContainer(EventDispatcher.java:182)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.lambda$notifyEventAsync$0(EventDispatcher.java:144)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+

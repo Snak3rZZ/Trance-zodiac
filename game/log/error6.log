@@ -1,0 +1,87 @@
+окт. 24, 2022 2:28:27 PM org.l2jmobius.gameserver.model.quest.Quest showError
+WARNING: F:\l2ServerMain\game\data\scripts\ai\bosses\Fafurion\Fafurion.java
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.actor.instance.GrandBoss.getId()" because "ai.bosses.Fafurion.Fafurion._fafurion" is null
+	at ai.bosses.Fafurion.Fafurion.onKill(Fafurion.java:434)
+	at org.l2jmobius.gameserver.model.quest.Quest.notifyKill(Quest.java:623)
+	at org.l2jmobius.gameserver.model.quest.Quest.lambda$addKillId$13(Quest.java:1945)
+	at org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener.executeEvent(ConsumerEventListener.java:44)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyToListeners(EventDispatcher.java:289)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyEventToSingleContainer(EventDispatcher.java:182)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.lambda$notifyEventAsync$0(EventDispatcher.java:144)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+окт. 24, 2022 2:28:33 PM org.l2jmobius.gameserver.model.quest.Quest showError
+WARNING: F:\l2ServerMain\game\data\scripts\ai\bosses\Lindvior\Lindvior.java
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.actor.Npc.deleteMe()" because "this._lionel" is null
+	at ai.bosses.Lindvior.Lindvior.onKill(Lindvior.java:852)
+	at org.l2jmobius.gameserver.model.quest.Quest.notifyKill(Quest.java:623)
+	at org.l2jmobius.gameserver.model.quest.Quest.lambda$addKillId$13(Quest.java:1945)
+	at org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener.executeEvent(ConsumerEventListener.java:44)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyToListeners(EventDispatcher.java:289)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyEventToSingleContainer(EventDispatcher.java:182)
+	at org.l2jmobius.gameserver.model.events.EventDispatcher.lambda$notifyEventAsync$0(EventDispatcher.java:144)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+окт. 24, 2022 3:17:42 PM org.l2jmobius.gameserver.model.quest.Quest showError
+WARNING: F:\l2ServerMain\game\data\scripts\ai\bosses\Frintezza\LastImperialTomb.java
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.instancezone.Instance.getPlayers()" because "world" is null
+	at ai.bosses.Frintezza.LastImperialTomb.broadcastPacket(LastImperialTomb.java:875)
+	at ai.bosses.Frintezza.LastImperialTomb.onAdvEvent(LastImperialTomb.java:177)
+	at org.l2jmobius.gameserver.model.quest.Quest.notifyEvent(Quest.java:573)
+	at org.l2jmobius.gameserver.model.quest.QuestTimer$ScheduleTimerTask.run(QuestTimer.java:156)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+окт. 24, 2022 3:17:59 PM org.l2jmobius.gameserver.model.quest.Quest showError
+WARNING: F:\l2ServerMain\game\data\scripts\ai\bosses\Frintezza\LastImperialTomb.java
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.instancezone.Instance.openCloseDoor(int, boolean)" because "world" is null
+	at ai.bosses.Frintezza.LastImperialTomb.onAdvEvent(LastImperialTomb.java:185)
+	at org.l2jmobius.gameserver.model.quest.Quest.notifyEvent(Quest.java:573)
+	at org.l2jmobius.gameserver.model.quest.QuestTimer$ScheduleTimerTask.run(QuestTimer.java:156)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+окт. 24, 2022 3:18:02 PM org.l2jmobius.gameserver.model.quest.Quest showError
+WARNING: F:\l2ServerMain\game\data\scripts\ai\bosses\Frintezza\LastImperialTomb.java
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.instancezone.Instance.getId()" because "world" is null
+	at ai.bosses.Frintezza.LastImperialTomb.onAdvEvent(LastImperialTomb.java:205)
+	at org.l2jmobius.gameserver.model.quest.Quest.notifyEvent(Quest.java:573)
+	at org.l2jmobius.gameserver.model.quest.QuestTimer$ScheduleTimerTask.run(QuestTimer.java:156)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+окт. 24, 2022 3:38:05 PM org.l2jmobius.gameserver.model.quest.Quest showError
+WARNING: F:\l2ServerMain\game\data\scripts\ai\bosses\Antharas\Antharas.java
+java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.instancezone.Instance.getId()" because "world" is null
+	at ai.bosses.Antharas.Antharas.onAdvEvent(Antharas.java:122)
+	at org.l2jmobius.gameserver.model.quest.Quest.notifyEvent(Quest.java:573)
+	at org.l2jmobius.gameserver.model.quest.QuestTimer$ScheduleTimerTask.run(QuestTimer.java:156)
+	at org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+

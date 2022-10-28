@@ -1,0 +1,1379 @@
+2022.10.24 15:38:50,905	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml exists using manual configuration...
+2022.10.24 15:38:51,061	INFO	1	org.l2jmobius.Config	Loaded 6 Filter Words.
+2022.10.24 15:38:51,080	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Database ]
+2022.10.24 15:38:51,546	INFO	22	org.l2jmobius.gameserver.model.World	World: (288 by 272) World Region Grid set up.
+2022.10.24 15:38:52,933	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
+2022.10.24 15:38:52,934	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ ThreadPool ]
+2022.10.24 15:38:52,934	INFO	1	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
+2022.10.24 15:38:52,935	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...4 scheduled pool executors with 16 total threads.
+2022.10.24 15:38:52,936	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...4 instant pool executors with 8 total threads.
+2022.10.24 15:38:52,941	INFO	1	org.l2jmobius.gameserver.GameServer	-----------------------------------------------=[ IdManager ]
+2022.10.24 15:38:52,944	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	Updated characters online status.
+2022.10.24 15:38:53,048	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 elements from database in 0 seconds.
+2022.10.24 15:38:53,087	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 2 expired timestamps from database.
+2022.10.24 15:38:53,091	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: 102912 id's available.
+2022.10.24 15:38:53,091	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------=[ Scripting Engine ]
+2022.10.24 15:38:53,249	INFO	1	org.l2jmobius.gameserver.scripting.ScriptEngineManager	Loaded 837 files to exclude.
+2022.10.24 15:38:53,250	INFO	1	org.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Telnet ]
+2022.10.24 15:38:53,417	INFO	1	org.l2jmobius.gameserver.network.telnet.TelnetServer	Telnet server is currently disabled.
+2022.10.24 15:38:53,417	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ World ]
+2022.10.24 15:38:53,692	INFO	1	org.l2jmobius.gameserver.instancemanager.MapRegionManager	MapRegionManager: Loaded 61 map regions.
+2022.10.24 15:38:53,696	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager 19 by 18 Zone Region Grid set up.
+2022.10.24 15:38:54,441	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Loaded 34 zone classes and 2957 zones.
+2022.10.24 15:38:54,458	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Last static id 210110.
+2022.10.24 15:38:54,899	INFO	1	org.l2jmobius.gameserver.data.xml.DoorData	DoorData: Loaded 1520 doors.
+2022.10.24 15:38:54,955	INFO	1	FenceData	FenceData: Loaded 1 fences.
+2022.10.24 15:38:54,963	INFO	1	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Loaded 9 variables.
+2022.10.24 15:38:54,963	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ Data ]
+2022.10.24 15:38:54,990	INFO	1	org.l2jmobius.gameserver.data.xml.ActionData	ActionData: Loaded 216 player actions.
+2022.10.24 15:38:55,083	INFO	1	org.l2jmobius.gameserver.data.xml.CategoryData	CategoryData: Loaded 216 categories.
+2022.10.24 15:38:55,103	INFO	1	org.l2jmobius.gameserver.data.xml.SecondaryAuthData	SecondaryAuthData: Loaded 328 forbidden passwords.
+2022.10.24 15:38:59,241	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Highest item id used: 96959
+2022.10.24 15:38:59,254	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 24150 Etc Items
+2022.10.24 15:38:59,255	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 12756 Armor Items
+2022.10.24 15:38:59,255	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 9112 Weapon Items
+2022.10.24 15:38:59,255	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 46018 Items in total.
+2022.10.24 15:38:59,308	INFO	1	org.l2jmobius.gameserver.data.xml.CombinationItemsData	CombinationItemsData: Loaded 4421 combinations.
+2022.10.24 15:38:59,335	INFO	1	org.l2jmobius.gameserver.data.xml.SayuneData	SayuneData: Loaded 71 maps.
+2022.10.24 15:39:00,478	INFO	1	handlers.DailyMissionMasterHandler	DailyMissionMasterHandler:  Loaded 10 handlers.
+2022.10.24 15:39:00,552	INFO	1	org.l2jmobius.gameserver.data.xml.DailyMissionData	DailyMissionData: Loaded 87 one day rewards.
+2022.10.24 15:39:00,558	INFO	1	org.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Skills ]
+2022.10.24 15:39:06,107	INFO	1	handlers.EffectMasterHandler	EffectMasterHandler: Loaded 389 effect handlers.
+2022.10.24 15:39:06,138	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantSkillGroupsData	EnchantSkillGroupsData: Loaded 20 enchant routes, max enchant set to 20.
+2022.10.24 15:39:12,405	INFO	1	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Loaded 169946 Skills.
+2022.10.24 15:39:13,258	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 19373 Class skills for 150 class skill trees.
+2022.10.24 15:39:13,258	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 1 sub-class skills.
+2022.10.24 15:39:13,258	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 33 dual-class skills.
+2022.10.24 15:39:13,259	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 104 transfer skills for 3 transfer skill trees.
+2022.10.24 15:39:13,266	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 18 race skills for 7 race skill trees.
+2022.10.24 15:39:13,269	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 35 fishing skills, 8 Dwarven only fishing skills.
+2022.10.24 15:39:13,270	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 3 collect skills.
+2022.10.24 15:39:13,288	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 11 clan skills, 0 for clan and 11 residential.
+2022.10.24 15:39:13,289	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 sub-pledge skills.
+2022.10.24 15:39:13,289	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 32 transform skills.
+2022.10.24 15:39:13,289	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 22 noble skills.
+2022.10.24 15:39:13,289	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 4 hero skills.
+2022.10.24 15:39:13,290	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 61 game master skills.
+2022.10.24 15:39:13,290	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 61 game master aura skills.
+2022.10.24 15:39:13,290	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 123 ability skills.
+2022.10.24 15:39:13,291	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 113 alchemy skills.
+2022.10.24 15:39:13,291	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 37 class awaken save skills.
+2022.10.24 15:39:13,291	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 20 Revelation skills.
+2022.10.24 15:39:13,292	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 35 common skills.
+2022.10.24 15:39:13,329	INFO	1	org.l2jmobius.gameserver.data.xml.PetSkillData	PetSkillData: Loaded 1084 skills.
+2022.10.24 15:39:13,329	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Items ]
+2022.10.24 15:39:13,438	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Loaded 31 item group templates.
+2022.10.24 15:39:13,438	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Loaded 5 scroll group templates.
+2022.10.24 15:39:13,473	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemData	EnchantItemData: Loaded 286 enchant scrolls.
+2022.10.24 15:39:13,474	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemData	EnchantItemData: Loaded 104 support items.
+2022.10.24 15:39:13,520	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemOptionsData	EnchantItemOptionsData: Loaded 353 items and 4710 options.
+2022.10.24 15:39:13,533	INFO	1	org.l2jmobius.commons.util.IXmlReader	ElementalAttributeData: Loaded 139 elemental attribute items.
+2022.10.24 15:39:13,557	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Loaded 13 crystallization templates.
+2022.10.24 15:39:13,558	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Loaded 338 pre-defined crystallizable items.
+2022.10.24 15:39:13,583	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Generated 5988 crystallizable items from templates.
+2022.10.24 15:39:15,474	INFO	1	org.l2jmobius.gameserver.data.xml.OptionData	OptionData: Loaded 37581 options.
+2022.10.24 15:39:15,552	INFO	1	VariationData	VariationData: Loaded 37 variations.
+2022.10.24 15:39:15,552	INFO	1	VariationData	VariationData: Loaded 2463 fees.
+2022.10.24 15:39:15,625	INFO	1	org.l2jmobius.gameserver.data.xml.EnsoulData	EnsoulData: Loaded 128 fees.
+2022.10.24 15:39:15,626	INFO	1	org.l2jmobius.gameserver.data.xml.EnsoulData	EnsoulData: Loaded 1169 options.
+2022.10.24 15:39:15,626	INFO	1	org.l2jmobius.gameserver.data.xml.EnsoulData	EnsoulData: Loaded 125 stones.
+2022.10.24 15:39:15,644	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemHPBonusData	EnchantItemHPBonusData: Loaded 12 enchant HP bonuses.
+2022.10.24 15:39:17,628	INFO	1	org.l2jmobius.gameserver.data.xml.BuyListData	BuyListData: Loaded 921 buyLists.
+2022.10.24 15:39:19,656	INFO	1	org.l2jmobius.gameserver.data.xml.MultisellData	MultisellData: Loaded 599 multisell lists.
+2022.10.24 15:39:19,740	INFO	1	org.l2jmobius.gameserver.data.xml.EquipmentUpgradeData	EquipmentUpgradeData: Loaded 6931 upgrade equipment data.
+2022.10.24 15:39:19,799	INFO	1	org.l2jmobius.gameserver.data.xml.AgathionData	AgathionData: Loaded 435 agathion data.
+2022.10.24 15:39:19,934	INFO	1	org.l2jmobius.gameserver.data.xml.RecipeData	RecipeData: Loaded 1816 recipes.
+2022.10.24 15:39:20,031	INFO	1	org.l2jmobius.gameserver.data.xml.ArmorSetData	ArmorSetData: Loaded 370 armor sets.
+2022.10.24 15:39:20,052	INFO	1	org.l2jmobius.gameserver.data.xml.FishingData	FishingData: Loaded 9 bait and 14 rod data.
+2022.10.24 15:39:20,142	INFO	1	org.l2jmobius.gameserver.data.xml.HennaData	HennaData: Loaded 549 henna data.
+2022.10.24 15:39:20,159	INFO	1	org.l2jmobius.gameserver.data.xml.PrimeShopData	PrimeShopData: Loaded 99 items.
+2022.10.24 15:39:20,184	INFO	1	org.l2jmobius.gameserver.data.xml.LimitShopData	LimitShopData: Loaded 44 items.
+2022.10.24 15:39:20,202	INFO	1	org.l2jmobius.gameserver.data.xml.LimitShopData	LimitShopCraftData: Loaded 131 items.
+2022.10.24 15:39:20,223	INFO	1	org.l2jmobius.gameserver.data.xml.CollectionData	CollectionData: Loaded 188 collections.
+2022.10.24 15:39:20,286	INFO	1	org.l2jmobius.gameserver.data.xml.AppearanceItemData	AppearanceItemData: Loaded 1282 stones.
+2022.10.24 15:39:20,300	INFO	1	org.l2jmobius.gameserver.data.xml.AlchemyData	AlchemyData: Loaded 114 alchemy craft skills.
+2022.10.24 15:39:20,339	INFO	1	org.l2jmobius.commons.util.IXmlReader	LuckyGameData: Loaded 2 lucky game data.
+2022.10.24 15:39:20,341	INFO	1	org.l2jmobius.gameserver.data.xml.AttendanceRewardData	AttendanceRewardData: Disabled.
+2022.10.24 15:39:20,342	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ Characters ]
+2022.10.24 15:39:20,347	INFO	1	org.l2jmobius.gameserver.data.xml.ClassListData	ClassListData: Loaded 158 class data.
+2022.10.24 15:39:20,354	INFO	1	org.l2jmobius.gameserver.data.xml.InitialEquipmentData	InitialEquipmentData: Loaded 14 initial equipment data.
+2022.10.24 15:39:20,368	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 5 initial global shortcuts data.
+2022.10.24 15:39:20,368	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 5 initial shortcuts data.
+2022.10.24 15:39:20,368	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 0 macro presets.
+2022.10.24 15:39:20,373	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Loaded 131 levels.
+2022.10.24 15:39:20,373	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Player Level is 130.
+2022.10.24 15:39:20,374	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Pet Level is 99.
+2022.10.24 15:39:20,396	INFO	1	org.l2jmobius.gameserver.data.xml.KarmaData	KarmaData: Loaded 130 karma modifiers.
+2022.10.24 15:39:20,399	INFO	1	org.l2jmobius.gameserver.data.xml.HitConditionBonusData	HitConditionBonusData: Loaded hit condition bonuses.
+2022.10.24 15:39:21,172	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 150 character templates.
+2022.10.24 15:39:21,174	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 108000 level up gain records.
+2022.10.24 15:39:21,176	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Generated 1500 level up gain records.
+2022.10.24 15:39:21,179	INFO	1	org.l2jmobius.gameserver.data.sql.CharNameTable	CharNameTable: Loaded 3 char names.
+2022.10.24 15:39:21,195	INFO	1	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: Loaded 10 access levels.
+2022.10.24 15:39:21,211	INFO	1	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: Loaded 468 access commands.
+2022.10.24 15:39:21,926	INFO	1	org.l2jmobius.gameserver.data.xml.PetDataTable	PetDataTable: Loaded 56 pets.
+2022.10.24 15:39:22,023	INFO	1	org.l2jmobius.gameserver.data.xml.CubicData	CubicData: Loaded 25 cubics.
+2022.10.24 15:39:22,045	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Clans ]
+2022.10.24 15:39:22,058	INFO	1	org.l2jmobius.gameserver.communitybbs.Manager.ForumsBBSManager	ForumsBBSManager: Loaded 6 forums. Last forum id used: 6
+2022.10.24 15:39:22,076	INFO	1	org.l2jmobius.gameserver.data.sql.ClanTable	ClanTable: Restored 2 clans from the database.
+2022.10.24 15:39:22,096	INFO	1	org.l2jmobius.gameserver.data.xml.ResidenceFunctionsData	ResidenceFunctionsData: Loaded 8 functions.
+2022.10.24 15:39:22,307	INFO	1	org.l2jmobius.gameserver.data.xml.ClanHallData	ClanHallData: Succesfully loaded 57 clan halls.
+2022.10.24 15:39:22,308	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanHallAuctionManager	ClanHallAuctionManager: Clan Hall Auction has started!
+2022.10.24 15:39:22,335	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 clan entries.
+2022.10.24 15:39:22,336	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 players in waiting list.
+2022.10.24 15:39:22,337	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 player applications.
+2022.10.24 15:39:22,349	INFO	1	org.l2jmobius.gameserver.data.xml.ClanMasteryData	ClanMasteryData: Loaded 16 clan masteries.
+2022.10.24 15:39:22,364	INFO	1	org.l2jmobius.gameserver.data.xml.ClanShopData	ClanShopData: Loaded 13 clan shop products.
+2022.10.24 15:39:22,365	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Geodata ]
+2022.10.24 15:39:30,959	INFO	1	org.l2jmobius.gameserver.geoengine.GeoEngine	GeoEngine: Loaded 233 regions.
+2022.10.24 15:39:30,960	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ NPCs ]
+2022.10.24 15:39:35,813	INFO	1	org.l2jmobius.gameserver.data.xml.NpcData	NpcData: Loaded 14682 NPCs.
+2022.10.24 15:39:35,870	INFO	1	org.l2jmobius.gameserver.data.xml.NpcData	NpcData: Loaded 22 custom NPCs.
+2022.10.24 15:39:35,871	INFO	1	org.l2jmobius.gameserver.data.xml.FakePlayerData	FakePlayerData: Disabled.
+2022.10.24 15:39:35,878	INFO	1	org.l2jmobius.gameserver.instancemanager.FakePlayerChatManager	FakePlayerChatManager: Disabled.
+2022.10.24 15:39:38,519	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: Loaded 62083 spawns
+2022.10.24 15:39:38,571	INFO	1	org.l2jmobius.gameserver.instancemanager.WalkingManager	WalkingManager: Loaded 197 walking routes.
+2022.10.24 15:39:38,620	INFO	1	org.l2jmobius.gameserver.data.xml.StaticObjectData	StaticObjectData: Loaded 86 static object templates.
+2022.10.24 15:39:38,644	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 21 item(s) and registered 1 auction(s) for instance 34328
+2022.10.24 15:39:38,650	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 1 on 17:00:00 29.10.22 for instance 34328
+2022.10.24 15:39:38,650	INFO	1	org.l2jmobius.gameserver.instancemanager.ItemAuctionManager	ItemAuctionManager: Loaded 1 instances.
+2022.10.24 15:39:38,786	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded 325 instance names.
+2022.10.24 15:39:39,710	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded 159 instance templates.
+2022.10.24 15:39:39,729	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded instance reenter times for 1 players.
+2022.10.24 15:39:39,763	INFO	1	org.l2jmobius.gameserver.instancemanager.CastleManager	CastleManager: Loaded 9 castles.
+2022.10.24 15:39:39,791	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Fafurion(19740) status is 0
+2022.10.24 15:39:39,791	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Kelbim(26124) status is 3
+2022.10.24 15:39:39,805	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Next spawn date of Kelbim is Thu Jan 01 03:00:00 MSK 1970
+2022.10.24 15:39:39,805	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Core(29006) status is 0
+2022.10.24 15:39:39,805	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Baium(29020) status is 0
+2022.10.24 15:39:39,805	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Valakas(29028) status is 3
+2022.10.24 15:39:39,805	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Next spawn date of Valakas is Sat Nov 05 16:32:22 MSK 2022
+2022.10.24 15:39:39,805	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29068) status is 0
+2022.10.24 15:39:39,805	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Beleth(29118) status is 0
+2022.10.24 15:39:39,806	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Earth Wyrm Trasken(29197) status is 0
+2022.10.24 15:39:39,806	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Lindvior(29240) status is 0
+2022.10.24 15:39:39,806	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Helios(29305) status is 0
+2022.10.24 15:39:39,806	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Orfen(29325) status is 0
+2022.10.24 15:39:39,806	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Lilith(29336) status is 0
+2022.10.24 15:39:39,806	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Anakim(29348) status is 0
+2022.10.24 15:39:39,806	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Queen Ant(29381) status is 0
+2022.10.24 15:39:39,807	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Loaded 14 instances.
+2022.10.24 15:39:39,829	INFO	1	org.l2jmobius.commons.util.IXmlReader	HomunculusData: Loaded 30 templates.
+2022.10.24 15:39:39,844	INFO	1	org.l2jmobius.commons.util.IXmlReader	HomunculusSlotData: Loaded 9 templates.
+2022.10.24 15:39:39,850	INFO	1	org.l2jmobius.commons.util.IXmlReader	HomunculusCreationData: Loaded 2 templates.
+2022.10.24 15:39:39,850	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Instance ]
+2022.10.24 15:39:39,851	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Olympiad ]
+2022.10.24 15:39:39,862	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loading....
+2022.10.24 15:39:39,862	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2022.10.24 15:39:39,863	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: 41540 minutes until period ends
+2022.10.24 15:39:39,864	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Next weekly change is in 8912 minutes
+2022.10.24 15:39:39,864	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
+2022.10.24 15:39:39,881	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Competition Period Starts in 4 days, 4 hours and 21 mins.
+2022.10.24 15:39:39,881	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Event starts/started: Fri Oct 28 20:00:39 MSK 2022
+2022.10.24 15:39:39,887	INFO	1	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 Heroes.
+2022.10.24 15:39:39,888	INFO	1	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 all time Heroes.
+2022.10.24 15:39:39,888	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Cache ]
+2022.10.24 15:39:39,889	INFO	1	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.24 15:39:41,295	INFO	1	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,230 megabytes on 6376 files loaded.
+2022.10.24 15:39:41,298	INFO	1	org.l2jmobius.gameserver.data.sql.CrestTable	CrestTable: Loaded 0 Crests.
+2022.10.24 15:39:41,304	INFO	1	org.l2jmobius.gameserver.data.xml.TeleportListData	TeleportListData: Loaded 102 teleports.
+2022.10.24 15:39:42,202	INFO	1	org.l2jmobius.gameserver.data.xml.TeleporterData	TeleporterData: Loaded 168 npc teleporters.
+2022.10.24 15:39:42,207	INFO	1	org.l2jmobius.gameserver.data.xml.TimedHuntingZoneData	TimedHuntingZoneData: Loaded 8 timed hunting zones.
+2022.10.24 15:39:42,226	INFO	1	org.l2jmobius.gameserver.instancemanager.CursedWeaponsManager	CursedWeaponsManager: Loaded 2 cursed weapons.
+2022.10.24 15:39:43,026	INFO	1	org.l2jmobius.gameserver.data.xml.TransformData	TransformData: Loaded 180 transform templates.
+2022.10.24 15:39:43,053	INFO	1	org.l2jmobius.gameserver.data.BotReportTable	BotReportTable: Loaded 0 bot reports
+2022.10.24 15:39:43,064	INFO	1	org.l2jmobius.gameserver.instancemanager.SellBuffsManager	SellBuffsManager: Loaded 145 allowed buffs.
+2022.10.24 15:39:43,064	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Scripts ]
+2022.10.24 15:39:43,080	INFO	1	org.l2jmobius.gameserver.instancemanager.AirShipManager	AirShipManager: Loaded 0 private airships
+2022.10.24 15:39:43,122	INFO	1	org.l2jmobius.gameserver.data.xml.ShuttleData	ShuttleData: Loaded 3 shuttles.
+2022.10.24 15:39:43,123	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Loading server scripts:
+2022.10.24 15:39:47,166	INFO	1	handlers.MasterHandler	Loading Handlers...
+2022.10.24 15:39:47,275	INFO	1	handlers.MasterHandler	ActionHandler: Loaded 10 handlers.
+2022.10.24 15:39:47,276	INFO	1	handlers.MasterHandler	ActionShiftHandler: Loaded 6 handlers.
+2022.10.24 15:39:47,276	INFO	1	handlers.MasterHandler	AdminCommandHandler: Loaded 461 handlers.
+2022.10.24 15:39:47,277	INFO	1	handlers.MasterHandler	BypassHandler: Loaded 30 handlers.
+2022.10.24 15:39:47,279	INFO	1	handlers.MasterHandler	ChatHandler: Loaded 14 handlers.
+2022.10.24 15:39:47,279	INFO	1	handlers.MasterHandler	CommunityBoardHandler: Loaded 24 handlers.
+2022.10.24 15:39:47,279	INFO	1	handlers.MasterHandler	ItemHandler: Loaded 33 handlers.
+2022.10.24 15:39:47,279	INFO	1	handlers.MasterHandler	PunishmentHandler: Loaded 3 handlers.
+2022.10.24 15:39:47,279	INFO	1	handlers.MasterHandler	UserCommandHandler: Loaded 16 handlers.
+2022.10.24 15:39:47,279	INFO	1	handlers.MasterHandler	VoicedCommandHandler: Loaded 7 handlers.
+2022.10.24 15:39:47,279	INFO	1	handlers.MasterHandler	TargetHandler: Loaded 21 handlers.
+2022.10.24 15:39:47,281	INFO	1	handlers.MasterHandler	AffectObjectHandler: Loaded 11 handlers.
+2022.10.24 15:39:47,282	INFO	1	handlers.MasterHandler	AffectScopeHandler: Loaded 19 handlers.
+2022.10.24 15:39:47,282	INFO	1	handlers.MasterHandler	PlayerActionHandler: Loaded 24 handlers.
+2022.10.24 15:39:47,282	INFO	1	handlers.MasterHandler	Handlers Loaded...
+2022.10.24 15:40:02,503	INFO	1	ai.areas.FantasyIsle.HandysBlockCheckerEvent	Handy's Block Checker Event is enabled
+2022.10.24 15:40:02,531	INFO	1	ai.areas.FantasyIsle.Parade	Fantasy Isle: Parade starting at 2022/10/24 17:20 and is scheduled each next 1 hours.
+2022.10.24 15:40:02,549	INFO	1	ai.areas.FantasyIsle.TalentShow	Fantasy Isle: MC show script starting at 25/10/2022 14:10:02 and is scheduled each next 4 hours.
+2022.10.24 15:40:03,438	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Anakim(29348) status to 0.
+2022.10.24 15:40:03,740	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Etis van Etina(29318) status to 0.
+2022.10.24 15:40:03,823	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Fafurion(19740) status to 0.
+2022.10.24 15:40:03,874	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Helios(29305) status to 0.
+2022.10.24 15:40:03,891	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Kelbim(26124) status to 0.
+2022.10.24 15:40:03,999	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Lilith(29336) status to 0.
+2022.10.24 15:40:04,013	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Lindvior(29240) status to 0.
+2022.10.24 15:40:04,088	INFO	1	ai.bosses.Tiat.Stage1	[Seed of Destruction] Loaded 51 spawn zones data.
+2022.10.24 15:40:04,145	INFO	1	ai.others.ClassMaster.ClassMaster	ClassMaster: Loaded 0 class change options.
+2022.10.24 15:40:04,216	INFO	1	ai.others.MentorGuide.MentorGuide	MentorGuide: Loaded 4 mentee coins
+2022.10.24 15:40:04,235	INFO	1	ai.others.NpcBuffers.NpcBuffersData	NpcBuffersData: Loaded 6 buffers data.
+2022.10.24 15:40:04,353	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Balthus Event has passed... Ignored 
+2022.10.24 15:40:04,358	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Birth of Draco has passed... Ignored 
+2022.10.24 15:40:04,366	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Dragon Slayer has passed... Ignored 
+2022.10.24 15:40:04,377	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Dream Maker has passed... Ignored 
+2022.10.24 15:40:04,398	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Eve the Fortune Teller active till Tue Dec 18 00:00:00 MSK 2029
+2022.10.24 15:40:04,403	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Freya Celebration has passed... Ignored 
+2022.10.24 15:40:04,407	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Gift of Vitality has passed... Ignored 
+2022.10.24 15:40:04,410	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Halloween has passed... Ignored 
+2022.10.24 15:40:04,414	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Heavy Medal has passed... Ignored 
+2022.10.24 15:40:04,418	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Hungry Horse has passed... Ignored 
+2022.10.24 15:40:04,422	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Hunt for Santa has passed... Ignored 
+2022.10.24 15:40:04,428	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Legend's Mark has passed... Ignored 
+2022.10.24 15:40:04,433	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Letter Collector has passed... Ignored 
+2022.10.24 15:40:04,437	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Lovers Jubilee has passed... Ignored 
+2022.10.24 15:40:04,441	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Love Your Gatekeeper has passed... Ignored 
+2022.10.24 15:40:04,445	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Master of Enchanting has passed... Ignored 
+2022.10.24 15:40:04,451	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Red Libra has passed... Ignored 
+2022.10.24 15:40:04,456	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Rudolphs Blessing has passed... Ignored 
+2022.10.24 15:40:04,469	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Saving Santa has passed... Ignored 
+2022.10.24 15:40:04,473	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event The Power Of Love has passed... Ignored 
+2022.10.24 15:40:04,478	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Training with Dandy has passed... Ignored 
+2022.10.24 15:40:04,762	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: Initializing spawns...
+2022.10.24 15:40:04,980	INFO	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Loaded 33 instances.
+2022.10.24 15:40:04,980	INFO	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Scheduled 0 instances.
+2022.10.24 15:40:27,059	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: All spawns has been initialized!
+2022.10.24 15:40:27,059	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Siege ]
+2022.10.24 15:40:27,087	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Gludio: Sun Nov 06 16:00:00 MSK 2022
+2022.10.24 15:40:27,090	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Dion: Sun Nov 06 20:00:00 MSK 2022
+2022.10.24 15:40:27,091	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Giran: Sun Nov 06 16:00:00 MSK 2022
+2022.10.24 15:40:27,091	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Oren: Sun Nov 06 20:00:00 MSK 2022
+2022.10.24 15:40:27,092	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Aden: Sun Nov 06 16:00:00 MSK 2022
+2022.10.24 15:40:27,093	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Innadril: Sun Nov 06 20:00:00 MSK 2022
+2022.10.24 15:40:27,093	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Goddard: Sun Nov 06 16:00:00 MSK 2022
+2022.10.24 15:40:27,094	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Rune: Sun Nov 06 20:00:00 MSK 2022
+2022.10.24 15:40:27,095	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Schuttgart: Sun Nov 06 16:00:00 MSK 2022
+2022.10.24 15:40:27,238	INFO	1	org.l2jmobius.gameserver.instancemanager.FortManager	FortManager: Loaded 20 fortress.
+2022.10.24 15:40:27,362	INFO	1	org.l2jmobius.gameserver.data.xml.SiegeScheduleData	SiegeScheduleData: Loaded 9 siege schedulers.
+2022.10.24 15:40:27,375	INFO	1	org.l2jmobius.gameserver.instancemanager.CastleManorManager	CastleManorManager: Loaded 258 seeds.
+2022.10.24 15:40:27,387	INFO	1	org.l2jmobius.gameserver.instancemanager.CastleManorManager	CastleManorManager: Manor data loaded.
+2022.10.24 15:40:27,414	INFO	1	org.l2jmobius.gameserver.instancemanager.SiegeGuardManager	SiegeGuardManager: Loaded 0 siege guards tickets.
+2022.10.24 15:40:27,415	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 56 quests.
+2022.10.24 15:40:27,415	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 428 scripts.
+2022.10.24 15:40:27,426	INFO	1	org.l2jmobius.gameserver.taskmanager.TaskManager	TaskManager: Loaded 5 Tasks.
+2022.10.24 15:40:27,429	INFO	1	org.l2jmobius.gameserver.instancemanager.DailyTaskManager	DailyTaskManager: Next schedule at 25/10 06:30.
+2022.10.24 15:40:27,432	INFO	1	org.l2jmobius.gameserver.instancemanager.MailManager	MailManager: Loaded 0 messages.
+2022.10.24 15:40:27,439	INFO	1	org.l2jmobius.gameserver.instancemanager.PunishmentManager	PunishmentManager: Loaded 0 active and 0 expired punishments.
+2022.10.24 15:40:27,440	INFO	1	org.l2jmobius.gameserver.GameServer	IdManager: Free ObjectID's remaining: 1878974703
+2022.10.24 15:40:27,452	INFO	1	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loading offline traders...
+2022.10.24 15:40:27,453	INFO	1	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loaded 0 offline traders.
+2022.10.24 15:40:28,717	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Started, using 2714 of 6144 MB total memory.
+2022.10.24 15:40:28,717	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Maximum number of connected players is 2000.
+2022.10.24 15:40:28,718	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Server loaded in 98 seconds.
+2022.10.24 15:40:28,917	INFO	1	org.l2jmobius.commons.network.NetworkManager	ClientNetworkManager: Listening on 192.168.1.66:7777
+2022.10.24 15:40:28,927	INFO	58	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 192.168.1.66:9014
+2022.10.24 15:40:29,007	INFO	58	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 2: Sieghardt
+2022.10.24 15:40:42,563	WARNING	60	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Snak! Just a warning to be careful ;)
+2022.10.24 15:41:54,076	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_editnpc'
+2022.10.24 15:42:13,082	WARNING	66	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Admin! Just a warning to be careful ;)
+2022.10.24 15:42:26,461	INFO	22	org.l2jmobius.gameserver.ui.SystemPanel	New maximum connected count of 2!
+2022.10.24 15:42:33,163	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_sw'
+2022.10.24 15:42:36,056	WARNING	60	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_sv'
+2022.10.24 16:08:43,223	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	NpcHtmlMessage: Missing html page data/html/default/33999.htm
+2022.10.24 16:10:27,679	INFO	36	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 9 variables.
+2022.10.24 16:11:24,907	INFO	20	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml exists using manual configuration...
+2022.10.24 16:11:25,009	INFO	20	org.l2jmobius.Config	Loaded 6 Filter Words.
+2022.10.24 16:11:33,899	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.24 16:11:35,182	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,237 megabytes on 6376 files loaded.
+2022.10.24 16:19:10,204	INFO	20	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml exists using manual configuration...
+2022.10.24 16:19:10,210	INFO	20	org.l2jmobius.Config	Loaded 6 Filter Words.
+2022.10.24 16:19:23,658	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2022.10.24 16:19:24,803	INFO	20	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4,244 megabytes on 6376 files loaded.
+2022.10.24 16:20:10,598	WARNING	60	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Snak! Just a warning to be careful ;)
+2022.10.24 16:40:27,683	INFO	39	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 10 variables.
+2022.10.24 16:51:42,966	WARNING	60	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Call to unexisting skill level id: 29393 requested level: 7 max level: 6.
+2022.10.24 16:51:42,966	WARNING	60	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Call to unexisting skill level id: 29393 requested level: 8 max level: 6.
+2022.10.24 17:02:35,524	WARNING	60	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Call to unexisting skill level id: 18345 requested level: 7 max level: 6.
+2022.10.24 17:10:27,708	INFO	38	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 10 variables.
+2022.10.24 17:17:17,771	INFO	60	org.l2jmobius.gameserver.network.PacketLogger	Player 268513303 Snak, trying create homunculus with not existing coupon!
+2022.10.24 17:17:43,916	INFO	60	org.l2jmobius.gameserver.network.PacketLogger	Player 268513303 Snak, trying create homunculus with not existing coupon!
+2022.10.24 17:17:55,466	INFO	66	org.l2jmobius.gameserver.network.PacketLogger	Player 268511586 Admin, trying create homunculus with not existing coupon!
+2022.10.24 17:18:02,892	INFO	66	org.l2jmobius.gameserver.network.PacketLogger	Player 268511586 Admin, trying create homunculus with not existing coupon!
+2022.10.24 17:18:13,051	INFO	66	org.l2jmobius.gameserver.network.PacketLogger	Player 268511586 Admin, trying create homunculus with not existing coupon!
+2022.10.24 17:22:38,714	INFO	66	org.l2jmobius.gameserver.network.PacketLogger	Player 268511586 Admin, trying create homunculus with not existing coupon!
+2022.10.24 17:24:48,757	INFO	60	org.l2jmobius.gameserver.network.PacketLogger	Player 268513303 Snak, trying create homunculus with not existing coupon!
+2022.10.24 17:40:29,917	INFO	37	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 10 variables.
+2022.10.24 17:41:13,178	WARNING	66	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Admin! Just a warning to be careful ;)
+2022.10.24 17:41:52,993	WARNING	60	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Snak! Just a warning to be careful ;)
+2022.10.24 17:43:15,798	WARNING	60	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Snak! Just a warning to be careful ;)
+2022.10.24 17:44:17,012	WARNING	42	org.l2jmobius.gameserver.model.effects.AbstractEffect	Summoning pet without attaching PetItemHandler!
+2022.10.24 17:44:26,100	WARNING	66	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Admin! Just a warning to be careful ;)
+2022.10.24 17:51:17,859	WARNING	66	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Admin! Just a warning to be careful ;)
+2022.10.24 17:54:49,676	WARNING	66	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Admin! Just a warning to be careful ;)
+2022.10.24 18:04:06,735	WARNING	60	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Call to unexisting skill level id: 29394 requested level: 8 max level: 6.
+2022.10.24 18:10:29,955	INFO	37	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 10 variables.
+2022.10.24 18:19:43,932	WARNING	44	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 30332 X: -45189 Y: 50917 Z: -2144 Heading: 759 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\18_19.xml (Не удается найти указанный файл)
+2022.10.24 18:24:50,389	WARNING	49	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 30119 X: -45093 Y: 50886 Z: -2104 Heading: 37169 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\18_19.xml (Не удается найти указанный файл)
+2022.10.24 18:25:12,667	INFO	45	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Updated Isabella respawn time to 24.10.2022 18:26
+2022.10.24 18:25:38,017	INFO	50	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Updated Mimir respawn time to 24.10.2022 18:26
+2022.10.24 18:26:12,670	INFO	30	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Spawning NPC Isabella
+2022.10.24 18:26:38,033	INFO	33	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Spawning NPC Mimir
+2022.10.24 18:40:30,056	INFO	38	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 10 variables.
+2022.10.24 18:44:10,179	INFO	44	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Beleth(29118) status to 1.
+2022.10.24 18:44:43,035	INFO	47	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Beleth(29118) status to 2.
+2022.10.24 18:45:07,109	WARNING	39	org.l2jmobius.gameserver.model.quest.Quest	F:\l2ServerMain\game\data\scripts\ai\bosses\Beleth\Beleth.java
+2022.10.24 18:46:28,572	WARNING	60	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Snak! Just a warning to be careful ;)
+2022.10.24 18:54:22,220	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	[Character: Snak[268513303] - Account: snak - IP: 46.242.9.230] sent not handled RequestBypassToServer: [_bbspremium;30]
+2022.10.24 18:54:38,340	WARNING	60	org.l2jmobius.gameserver.network.PacketLogger	[Character: Snak[268513303] - Account: snak - IP: 46.242.9.230] sent not handled RequestBypassToServer: [_bbspremium;30]
+2022.10.24 19:05:20,547	INFO	43	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Beleth(29118) status to 0.
+2022.10.24 19:10:29,938	INFO	38	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 10 variables.
+2022.10.24 19:22:21,646	WARNING	60	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Snak! Just a warning to be careful ;)
+2022.10.24 19:40:29,999	INFO	39	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 10 variables.
+2022.10.24 19:48:19,656	WARNING	66	org.l2jmobius.gameserver.network.PacketLogger	[Character: Admin[268511586] - Account: admin - IP: 128.0.131.163] sent not handled RequestBypassToServer: [_bbspremium;15]
+2022.10.24 19:52:32,689	INFO	42	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Updated Akrikhin Charon respawn time to 24.10.2022 19:53
+2022.10.24 19:53:32,704	INFO	28	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Spawning NPC Akrikhin Charon
+2022.10.24 19:54:26,241	INFO	37	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Updated Watcher Tristan respawn time to 24.10.2022 19:55
+2022.10.24 19:54:56,332	INFO	51	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Beleth(29118) status to 2.
+2022.10.24 19:55:26,248	INFO	33	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Spawning NPC Watcher Tristan
+2022.10.24 19:55:28,685	WARNING	45	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 13383 X: -89438 Y: 244971 Z: -3640 Heading: 36366 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\17_25.xml (Не удается найти указанный файл)
+2022.10.24 19:55:35,321	WARNING	47	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 159 X: -89513 Y: 244767 Z: -3640 Heading: 45477 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\17_25.xml (Не удается найти указанный файл)
+2022.10.24 19:56:04,135	INFO	48	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Queen Ant(29381) status to 1.
+2022.10.24 19:56:56,776	WARNING	45	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 29381 X: -89513 Y: 244767 Z: -3640 Heading: 45477 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\17_25.xml (Не удается найти указанный файл)
+2022.10.24 19:57:23,038	WARNING	49	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 13382 X: -89367 Y: 245132 Z: -3640 Heading: 31317 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\17_25.xml (Не удается найти указанный файл)
+2022.10.24 19:58:12,759	INFO	44	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Orfen(29325) status to 1.
+2022.10.24 20:00:46,847	WARNING	51	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 29325 X: -89517 Y: 245079 Z: -3656 Heading: 3608 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\17_25.xml (Не удается найти указанный файл)
+2022.10.24 20:01:47,799	WARNING	44	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 13384 X: -89424 Y: 244996 Z: -3640 Heading: 10548 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\17_25.xml (Не удается найти указанный файл)
+2022.10.24 20:02:08,502	WARNING	45	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 32715 X: -89430 Y: 245052 Z: -3640 Heading: 39892 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\17_25.xml (Не удается найти указанный файл)
+2022.10.24 20:03:08,358	INFO	46	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Updated Lilith respawn time to 24.10.2022 20:04
+2022.10.24 20:03:08,393	INFO	46	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Lilith(29336) status to 2.
+2022.10.24 20:03:17,630	WARNING	47	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 30368 X: -88645 Y: 245445 Z: -3688 Heading: 5981 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\17_25.xml (Не удается найти указанный файл)
+2022.10.24 20:04:08,373	INFO	34	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Spawning NPC Lilith
+2022.10.24 20:10:30,109	INFO	37	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 10 variables.
+2022.10.24 20:31:47,084	WARNING	30	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Call to unexisting skill level id: 29395 requested level: 8 max level: 6.
+2022.10.24 20:31:47,085	WARNING	30	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Call to unexisting skill level id: 29394 requested level: 7 max level: 6.
+2022.10.24 20:40:29,918	INFO	38	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 10 variables.
+2022.10.24 20:43:45,583	WARNING	45	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 32949 X: 207407 Y: 120690 Z: -10008 Heading: 6395 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\26_21.xml (Не удается найти указанный файл)
+2022.10.24 20:43:49,701	WARNING	50	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 29212 X: 207454 Y: 120796 Z: -10008 Heading: 12030 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\26_21.xml (Не удается найти указанный файл)
+2022.10.24 20:48:55,589	WARNING	60	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character АЛ-Акир! Just a warning to be careful ;)
+2022.10.24 20:58:46,638	WARNING	50	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 32499 X: 179561 Y: 114640 Z: -7704 Heading: 0 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\25_21.xml (Не удается найти указанный файл)
+2022.10.24 20:58:49,807	WARNING	50	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Spawn Spawn ID: 31709 X: 179561 Y: 114640 Z: -7704 Heading: 0 could not be removed from the spawn XML files: java.io.FileNotFoundException: data\spawns\Others\25_21.xml (Не удается найти указанный файл)
+2022.10.24 21:00:01,357	WARNING	60	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character АЛ-Акир! Just a warning to be careful ;)
+2022.10.24 21:03:08,991	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Durable Leather Helmet(80690)[268513305] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:08,993	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Bronze Gaiters(80692)[268513307] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:08,996	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Bracer(80693)[268513308] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:08,998	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Sword Breaker(80683)[268513312] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,000	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Mentoring Guidebook(33801)[268513311] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,001	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Compound Bow(80687)[268513313] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,004	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Lindvior Thrower(36507)[268513761] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,007	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Tauti's Ring(35570)[268513879] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,010	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Military Hair Accessory(23457)[268513997] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,011	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Wooden Arrow(17)[268508723] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,013	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Clan Cloak - Combat Lv. 4(48244)[268514051] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,014	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Blue Pirate Garment(47221)[268514182] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,016	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Jester Outfit(81048)[268514174] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,019	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Blue Pirate Garment(47221)[268514180] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,021	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Santa Outfit(24703)[268514066] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,023	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Jester Outfit(81048)[268514175] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,024	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Bloodstained Zariche Thrower(80879)[268514292] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,028	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Bloodthirsty Zariche Dual Swords(80709)[268511007] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,035	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Monster's Weapon(35692)[268516299] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,039	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Bloodstained Zariche Fighter(80877)[268511012] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,040	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object R99-grade Scroll of Blessing(36162)[268515610] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,041	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Dark Helios Weapon Pack(36147)[268508719] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,042	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Ring of the Truth-Seeker(47218)[268515560] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,045	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Lindvior's Earring(36946)[268515570] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,047	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Blessed Antharas' Earring(19463)[268515580] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,048	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Giant's Energy 100-unit Pack(40236)[268508718] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,049	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Ultimate Jewelry Box Lv. 4(29402)[268508714] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,049	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Aether(81215)[268508720] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,050	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object R99-grade Scroll of Blessing(36162)[268515582] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,050	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Dark Weapon Enhancement Stone(35566)[268508711] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,052	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Lindvior's Earring(36946)[268515585] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,053	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object R99-grade Scroll of Blessing(36162)[268515577] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,053	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Giant's Scroll: Enchant R-grade Weapon(36386)[268508716] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,054	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Talisman of Insanity(39572)[268515544] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,055	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Book of Growth: Agathion Charm From the Star(28758)[268508717] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,056	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object High-grade Starlight Agathion Pack(29152)[268508726] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,056	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Artifact Book(48956)[268515584] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,057	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Lindvior's Earring(36946)[268515556] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,059	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Lindvior's Earring(36946)[268515603] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,062	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Lindvior's Earring(36946)[268515616] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,063	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Bloody Weapon Enhancement Stone(35568)[268508725] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,063	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Nurka's/ Lidia's/ Gustav's Belt Box(47396)[268508715] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,065	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Blessed Valakas' Necklace(19464)[268515601] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,066	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Nevit's Cloak of Light Box(47916)[268508721] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,067	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Nevit's Gold Hourglass(47918)[268508728] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,068	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Giant's Energy 20-unit Pack(40235)[268508724] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,068	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Red Starlight Jar(28761)[268508729] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,068	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Package: Lesser Giant's Stone: Enchant R-grade Armor(24346)[268508713] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,069	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Sealed Talisman of Longing(35649)[268515606] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,069	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Gran Kain's Scroll: Enchant R-grade Weapon(48912)[268508722] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,070	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object R99-grade Scroll of Blessing(36162)[268515608] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,070	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Gran Kain's Scroll: Enchant R-grade Armor(80502)[268508727] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,071	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Artifact Book(48956)[268515604] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,072	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Blessed Antharas' Earring(19463)[268515609] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:09,073	WARNING	35	org.l2jmobius.gameserver.model.World	World: Object Elcyum(36515)[268508712] already exists in the world. Stack Trace: java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+org.l2jmobius.gameserver.model.World.addObject(World.java:154)
+org.l2jmobius.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:645)
+org.l2jmobius.gameserver.model.actor.Player.getWarehouse(Player.java:3034)
+org.l2jmobius.gameserver.model.actor.Player.store(Player.java:7330)
+org.l2jmobius.gameserver.model.actor.Player.storeMe(Player.java:7337)
+org.l2jmobius.gameserver.network.Disconnection.storeMe(Disconnection.java:123)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:166)
+org.l2jmobius.gameserver.network.Disconnection.defaultSequence(Disconnection.java:160)
+org.l2jmobius.gameserver.model.actor.Creature.onDecay(Creature.java:585)
+org.l2jmobius.gameserver.taskmanager.DecayTaskManager.run(DecayTaskManager.java:58)
+org.l2jmobius.commons.threads.RunnableWrapper.run(RunnableWrapper.java:35)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 21:03:38,391	WARNING	459	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Admin! Just a warning to be careful ;)
+2022.10.24 21:10:30,072	INFO	39	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 11 variables.
+2022.10.24 21:20:25,340	WARNING	35	org.l2jmobius.gameserver.model.quest.Quest	F:\l2ServerMain\game\data\scripts\ai\bosses\Antharas\Antharas.java
+2022.10.24 21:28:18,828	INFO	47	org.l2jmobius.gameserver.model.siege.Siege	Siege of Giran: Sun Nov 06 16:00:00 MSK 2022
+2022.10.24 21:38:27,898	WARNING	20	org.l2jmobius.gameserver.Shutdown	Server scheduled restart issued shutdown command. Shutdown in 10 seconds!
+2022.10.24 21:38:37,934	WARNING	513	org.l2jmobius.gameserver.Shutdown	GM shutdown countdown is over. shutting down NOW!
+2022.10.24 21:38:37,951	INFO	55	org.l2jmobius.gameserver.Shutdown	All players disconnected and saved(0ms).
+2022.10.24 21:38:37,952	INFO	55	org.l2jmobius.gameserver.Shutdown	Movement Task Manager: Thread interruped(0ms).
+2022.10.24 21:38:37,952	INFO	55	org.l2jmobius.gameserver.Shutdown	Game Time Task Manager: Thread interruped(1ms).
+2022.10.24 21:38:37,952	INFO	55	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Shutting down.
+2022.10.24 21:38:37,954	INFO	55	org.l2jmobius.gameserver.Shutdown	Thread Pool Manager: Manager has been shut down(2ms).
+2022.10.24 21:38:37,954	INFO	55	org.l2jmobius.gameserver.Shutdown	Login Server Thread: Thread interruped(0ms).
+2022.10.24 21:38:37,956	INFO	55	org.l2jmobius.gameserver.network.telnet.TelnetServer	Shutting down..
+2022.10.24 21:38:37,956	INFO	55	org.l2jmobius.gameserver.Shutdown	Telnet Server Thread: Thread interruped(2ms).
+2022.10.24 21:38:37,956	INFO	55	org.l2jmobius.gameserver.Shutdown	GM shutdown received. Shutting down NOW!
+2022.10.24 21:38:37,965	INFO	55	org.l2jmobius.gameserver.Shutdown	RaidBossSpawnManager: All raidboss info saved(9ms).
+2022.10.24 21:38:37,969	INFO	55	org.l2jmobius.gameserver.Shutdown	GrandBossManager: All Grand Boss info saved(4ms).
+2022.10.24 21:38:37,969	INFO	55	org.l2jmobius.gameserver.Shutdown	Item Auction Manager: All tasks stopped(0ms).
+2022.10.24 21:38:37,971	INFO	55	org.l2jmobius.gameserver.Shutdown	Olympiad System: Data saved(2ms).
+2022.10.24 21:38:37,972	INFO	55	org.l2jmobius.gameserver.Shutdown	Hero System: Data saved(1ms).
+2022.10.24 21:38:38,078	INFO	55	org.l2jmobius.gameserver.Shutdown	Clan System: Data saved(106ms).
+2022.10.24 21:38:38,080	INFO	55	org.l2jmobius.gameserver.Shutdown	Cursed Weapons Manager: Data saved(1ms).
+2022.10.24 21:38:38,081	INFO	55	org.l2jmobius.gameserver.Shutdown	Castle Manor Manager: Data saved(2ms).
+2022.10.24 21:38:38,113	INFO	55	org.l2jmobius.gameserver.Shutdown	Quest Manager: Data saved(32ms).
+2022.10.24 21:38:38,509	INFO	55	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 11 variables.
+2022.10.24 21:38:38,509	INFO	55	org.l2jmobius.gameserver.Shutdown	Global Variables Manager: Variables saved(396ms).
+2022.10.24 21:38:38,532	INFO	55	org.l2jmobius.gameserver.Shutdown	Bot Report Table: Successfully saved reports to database!
+2022.10.24 21:38:40,884	WARNING	58	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not avaible, trying to reconnect...
+2022.10.24 21:38:43,535	INFO	55	org.l2jmobius.gameserver.Shutdown	Game Server: Selector thread has been shut down(2ms).
+2022.10.24 21:38:43,803	INFO	55	org.l2jmobius.gameserver.Shutdown	Database Factory: Database connection has been shut down(268ms).

@@ -1,0 +1,22 @@
+2022.10.25 12:03:30,027	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
+2022.10.25 12:03:30,084	INFO	1	org.l2jmobius.loginserver.LoginController	Loading LoginController...
+2022.10.25 12:03:30,635	INFO	1	org.l2jmobius.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
+2022.10.25 12:03:30,777	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 127 server names.
+2022.10.25 12:03:30,780	INFO	1	org.l2jmobius.loginserver.GameServerTable	Loaded 1 registered Game Servers.
+2022.10.25 12:03:30,922	INFO	1	org.l2jmobius.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2022.10.25 12:03:30,926	INFO	1	org.l2jmobius.loginserver.LoginServer	Loaded 2 IP Bans.
+2022.10.25 12:03:30,928	INFO	1	org.l2jmobius.loginserver.LoginServer	Listening for GameServers on 192.168.1.66:9014
+2022.10.25 12:03:31,245	INFO	1	org.l2jmobius.commons.network.NetworkManager	ClientNetworkManager: Listening on 192.168.1.66:2106
+2022.10.25 12:04:58,128	INFO	32	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2022.10.25 12:04:58,130	INFO	32	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2022.10.25 12:04:58,131	INFO	32	org.l2jmobius.loginserver.GameServerThread	10.0.0.0/10.0.0.0/8
+2022.10.25 12:04:58,131	INFO	32	org.l2jmobius.loginserver.GameServerThread	172.16.0.0/172.16.0.0/19
+2022.10.25 12:04:58,131	INFO	32	org.l2jmobius.loginserver.GameServerThread	192.168.0.0/192.168.0.0/16
+2022.10.25 12:04:58,131	INFO	32	org.l2jmobius.loginserver.GameServerThread	192.168.0.0/192.168.0.0/24
+2022.10.25 12:04:58,131	INFO	32	org.l2jmobius.loginserver.GameServerThread	192.168.1.0/192.168.1.0/24
+2022.10.25 12:04:58,131	INFO	32	org.l2jmobius.loginserver.GameServerThread	128.0.131.163/0.0.0.0/0
+2022.10.26 19:06:25,686	INFO	41	org.l2jmobius.loginserver.LoginController	Auto created account 'zag'.
+2022.10.26 21:30:56,529	INFO	241	org.l2jmobius.loginserver.LoginController	Auto created account 'axelerat24@gma'.
+2022.10.26 21:36:29,886	INFO	317	org.l2jmobius.loginserver.LoginController	Auto created account 'axelerat24'.
+2022.10.26 21:46:42,548	INFO	715	org.l2jmobius.loginserver.GameServerThread	GameServer (162.142.125.213): Connection lost: Connection reset
+2022.10.26 22:51:15,987	INFO	31	org.l2jmobius.loginserver.LoginController	Auto created account 'Insome'.
